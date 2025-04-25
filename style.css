@@ -1,0 +1,419 @@
+:root {
+    --gold: #d4af37;
+    --light-gold: #f1e5c2;
+    --dark-gold: #b08c33;
+    --rich-black: #0d1b2a;
+    --deep-blue: #1b263b;
+    --slate-blue: #415a77;
+    --cream: #f5f5f5;
+    --white: #ffffff;
+    --light-gray: #e0e0e0;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cream);
+    color: var(--text-color);
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+}
+
+.page-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+    padding: 3rem 0;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: var(--white);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0;
+    border-bottom: 3px solid var(--gold);
+}
+
+.menu-border {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.border-top-left {
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-top: 3px solid var(--gold);
+    border-left: 3px solid var(--gold);
+}
+
+.border-top-right {
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-top: 3px solid var(--gold);
+    border-right: 3px solid var(--gold);
+}
+
+.border-bottom-left {
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-bottom: 3px solid var(--gold);
+    border-left: 3px solid var(--gold);
+}
+
+.border-bottom-right {
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-bottom: 3px solid var(--gold);
+    border-right: 3px solid var(--gold);
+}
+
+header {
+    padding: 4rem 2rem 3rem;
+    position: relative;
+    background-color: var(--white);
+    z-index: 2;
+    background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="20" height="20" fill="%23ffffff"/><circle cx="10" cy="10" r="1" fill="%23d4af37" opacity="0.2"/></svg>');
+    background-size: 20px 20px;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.hotel-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+/*
+.logo-emblem {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.logo-emblem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--gold);
+    opacity: 0.1;
+    border-radius: 50%;
+}
+
+.logo-emblem::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 1px solid var(--gold);
+    border-radius: 50%;
+}*/
+
+#hotel-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--rich-black);
+    margin-bottom: 0.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.hotel-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: var(--slate-blue);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.language-selector {
+    margin: 1.5rem 0 0.5rem;
+}
+
+.language-selector .btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.language-selector .btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: var(--gold);
+    transition: all 0.3s ease;
+}
+
+.language-selector .btn:hover::after {
+    width: 80%;
+}
+
+.language-selector .btn.btn-primary {
+    background-color: transparent;
+    color: var(--gold);
+    font-weight: 500;
+}
+
+.language-selector .btn.btn-primary::after {
+    width: 80%;
+}
+
+main {
+    padding: 2rem 3rem 3rem;
+    background-color: var(--white);
+    position: relative;
+    z-index: 2;
+}
+
+#welcome-section {
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+#welcome-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+#welcome-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--rich-black);
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+#welcome-text {
+    font-size: 1rem;
+    color: var(--slate-blue);
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.menu-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--rich-black);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-section-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+}
+
+.menu-items {
+    margin-bottom: 1.5rem;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+    padding: 1.8rem;
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+}
+
+.menu-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 0;
+    background-color: var(--gold);
+    transition: height 0.4s ease;
+}
+
+.menu-item:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+}
+
+.menu-item:hover::before {
+    height: 100%;
+}
+
+.menu-item h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--rich-black);
+    margin-bottom: 0.8rem;
+}
+
+.menu-item .price {
+    font-weight: 500;
+    color: var(--gold);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.menu-item .description {
+    color: var(--slate-blue);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.menu-item .availability {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    opacity: 0.7;
+    margin-bottom: 0;
+    font-style: italic;
+    text-align: right;
+}
+
+.menu-item .availability strong {
+    font-weight: 500;
+    opacity: 0.9;
+    font-style: normal;
+}
+
+footer {
+    padding: 2.5rem;
+    background-color: var(--white);
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid var(--light-gray);
+}
+
+#footer-text {
+    font-size: 0.85rem;
+    color: var(--slate-blue);
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 2.5rem 1.5rem 2rem;
+    }
+    
+    #hotel-name {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+    
+    main {
+        padding: 1.5rem;
+    }
+    
+    .menu-item {
+        padding: 1.5rem;
+    }
+    
+    .menu-border {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Decorative elements */
+.corner-decoration {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.corner-top-left {
+    top: 20px;
+    left: 20px;
+    border-top: 2px solid var(--gold);
+    border-left: 2px solid var(--gold);
+}
+
+.corner-top-right {
+    top: 20px;
+    right: 20px;
+    border-top: 2px solid var(--gold);
+    border-right: 2px solid var(--gold);
+}
+
+.corner-bottom-left {
+    bottom: 20px;
+    left: 20px;
+    border-bottom: 2px solid var(--gold);
+    border-left: 2px solid var(--gold);
+}
+
+.corner-bottom-right {
+    bottom: 20px;
+    right: 20px;
+    border-bottom: 2px solid var(--gold);
+    border-right: 2px solid var(--gold);
+}

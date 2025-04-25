@@ -1,0 +1,1647 @@
+{
+    "translations": {
+        "en": {
+            "title": "Conchy's kitchen",
+            "Seafood": {
+                "name": "Seafood",
+                "original_name": "Mariscos"
+            },
+            "Fish": {
+                "name": "Fish",
+                "original_name": "Pescados"
+            },
+            "Meats": {
+                "name": "Meats",
+                "original_name": "Carnes"
+            },
+            "Sides": {
+                "name": "Sides",
+                "original_name": "Acompañamientos"
+            },
+            "Starters and Salads": {
+                "name": "Starters and Salads",
+                "original_name": "Entradas y Ensaladas"
+            },
+            "Healthy Menu": {
+                "name": "Healthy Menu",
+                "original_name": "Menú Saludable"
+            },
+            "Beverages": {
+                "name": "Beverages",
+                "original_name": "Bebidas"
+            }
+        },
+        "fr": {
+            "title": "La cuisine de Conchy",
+            "Fruits de Mer": {
+                "name": "Fruits de Mer",
+                "original_name": "Mariscos"
+            },
+            "Poissons": {
+                "name": "Poissons",
+                "original_name": "Pescados"
+            },
+            "Viandes": {
+                "name": "Viandes",
+                "original_name": "Carnes"
+            },
+            "Accompagnements": {
+                "name": "Accompagnements",
+                "original_name": "Acompañamientos"
+            },
+            "Entrées et Salades": {
+                "name": "Entrées et Salades",
+                "original_name": "Entradas y Ensaladas"
+            },
+            "Menu Sain": {
+                "name": "Menu Sain",
+                "original_name": "Menú Saludable"
+            },
+            "Boissons": {
+                "name": "Boissons",
+                "original_name": "Bebidas"
+            }
+        }
+    },
+    "menu": {
+        "es": {
+            "Mariscos": [
+                {
+                    "name": "Arroz especial frutos del mar",
+                    "description": "Arroz con coco, camarón, palmito de mar, pescado y calamar",
+                    "price": 45000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Langostino a la diabla",
+                    "description": "Langostinos en salsa picante",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pulpo a la parrilla",
+                    "description": "Acompañado de papas criollas salteadas y vegetales",
+                    "price": 52000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Langosta rellena con mariscos",
+                    "description": "Langosta rellena con una mezcla de mariscos",
+                    "price": 75000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Ceviche de pescado",
+                    "description": "Pescado fresco marinado con limón y especias",
+                    "price": 28000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Langosta a la plancha",
+                    "description": "Langosta cocinada a la plancha",
+                    "price": 70000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Arroz con camarón",
+                    "description": "Arroz preparado con camarones frescos",
+                    "price": 35000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ceviche de camarón",
+                    "description": "Camarones marinados con limón y especias",
+                    "price": 30000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cazuela de mariscos",
+                    "description": "Camarón, pulpo, calamar, chipichipi o palmito de mar en leche de coco",
+                    "price": 42000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Camarones a la diabla",
+                    "description": "Camarones en salsa picante",
+                    "price": 36000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Camarones al ajillo",
+                    "description": "Camarones salteados con ajo",
+                    "price": 36000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Langostino a la plancha",
+                    "description": "Langostinos cocinados a la plancha",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Langosta rellena con camarones",
+                    "description": "Langosta rellena con camarones frescos",
+                    "price": 72000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Langosta a la parrilla",
+                    "description": "Acompañada de arroz con coco, patacones y ensalada",
+                    "price": 74000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Camarones con vegetales",
+                    "description": "Camarones salteados con vegetales frescos",
+                    "price": 34000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Coctel de camarón",
+                    "description": "Camarones en salsa de cóctel",
+                    "price": 32000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Langostino al ajillo",
+                    "description": "Langostinos salteados con ajo",
+                    "price": 38000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Pescados": [
+                {
+                    "name": "Filete de Salmón o Robalo",
+                    "description": "Gratinado con queso, mozzarella y finas hierbas, con vegetales o apanado",
+                    "price": 48000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Lomo fino 250 gramos encebollado",
+                    "description": "Lomo de pescado con cebolla caramelizada",
+                    "price": 45000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Picada a la plancha de frutos del mar",
+                    "description": "Salmón, pulpo, camarones, robalo, calamar, acompañado de patacones",
+                    "price": 55000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Pescado de la época",
+                    "description": "Pargo, Sierra, Cojinoa, convinata - A la plancha, frito, sudado o relleno",
+                    "price": 40000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Pesca del día",
+                    "description": "Pargo, caginoa, corvina",
+                    "price": 42000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Gulasch de cerdo",
+                    "description": "Estofado de cerdo con especias",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Salpicón de pescado",
+                    "description": "Mezcla de pescado fresco con vegetales",
+                    "price": 32000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Posta Sierra, filete Robalo, pargo, Salmón",
+                    "description": "Con arroz con coco, patacón y ensalada típica",
+                    "price": 46000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Lomo de cerdo a la plancha",
+                    "description": "Lomo de cerdo cocinado a la plancha",
+                    "price": 36000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Carnes": [
+                {
+                    "name": "Cordón Blue",
+                    "description": "Pechuga rellena de jamón, espinaca, queso, mozzarella con o sin tocineta en salsa",
+                    "price": 42000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Lomo fino 250 gramos en salsa chimichurri",
+                    "description": "Lomo fino con salsa chimichurri",
+                    "price": 45000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Filete Miñón en salsa de champiñones",
+                    "description": "Filete miñón con salsa cremosa de champiñones",
+                    "price": 48000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pechuga a la plancha en salsa de champiñones",
+                    "description": "Pechuga de pollo con salsa de champiñones",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pechuga Napolitana",
+                    "description": "Asada con lonjas de tomate, queso, mozzarella y finas hierbas",
+                    "price": 40000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Acompañamientos": [
+                {
+                    "name": "Arroz Integral",
+                    "description": "Arroz integral cocido",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Sopa de pescado",
+                    "description": "Sopa tradicional de pescado",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Papa a la francesa",
+                    "description": "Papas fritas crujientes",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cremas y sopas",
+                    "description": "Cebolla, champiñones, espinacas",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Jardinería de legumbre o ensalada",
+                    "description": "Ensalada fresca de vegetales",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cayeye",
+                    "description": "Plato típico de guineo verde",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Arepas de maíz con chorizos artesanos",
+                    "description": "Arepas con chorizo artesanal",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Croquetas de papas",
+                    "description": "Croquetas de papa fritas",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pinchos",
+                    "description": "De pollo, carne, cerdo",
+                    "price": 15000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Papas",
+                    "description": "A la francesa, al vapor o puré",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Puré de ahuyama",
+                    "description": "Puré cremoso de ahuyama",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Consomé de pollo/pescado",
+                    "description": "Caldo de pollo o pescado",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pastas al burro",
+                    "description": "Pastas con salsa de mantequilla",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Papa criolla",
+                    "description": "Papas criollas cocidas o fritas",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pasta Napolitana",
+                    "description": "Pasta con salsa napolitana",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Arroz blanco",
+                    "description": "Arroz blanco cocido",
+                    "price": 7000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cookies de pollo",
+                    "description": "Galletas de pollo fritas",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pastas con vegetales",
+                    "description": "Pasta salteada con vegetales frescos",
+                    "price": 12000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Entradas y Ensaladas": [
+                {
+                    "name": "Ensaladas de pollos",
+                    "description": "Papá, zanahoria, cebolla",
+                    "price": 15000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Caribañolas",
+                    "description": "Con carne, pollo, jamón y queso",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ensaladas barlovento",
+                    "description": "Frutas y vegetales",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetales",
+                    "description": "Vegetales frescos al vapor",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Patacones",
+                    "description": "Plátano verde frito",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Papas rellenas",
+                    "description": "Con carne, pollo, jamón y queso",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Papas a la francesa",
+                    "description": "Papas fritas crujientes",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ensaladas de vegetales",
+                    "description": "Mezcla de vegetales frescos",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Arroz de coco",
+                    "description": "Arroz preparado con coco",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Empanadas",
+                    "description": "Carne, atún, carne molida, pollo, jamón y queso",
+                    "price": 6000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Menú Saludable": [
+                {
+                    "name": "Crema de brócoli y queso",
+                    "description": "Crema suave de brócoli con queso",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Sopas y cremas",
+                    "description": "Coliflor, tomate, apio",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pastas con vegetales",
+                    "description": "Pasta salteada con vegetales frescos",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetales al vapor",
+                    "description": "Brócoli, habichuela, zanahoria, coliflor, fetuccini",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pastas napolitanas",
+                    "description": "Pasta con salsa napolitana",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Aguacate relleno con vegetales",
+                    "description": "Aguacate relleno con mezcla de vegetales",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ensalada verde",
+                    "description": "Espinacas, lechuga, cebolla roja, pepino, pimentón",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Crema de ahuyama",
+                    "description": "Crema suave de ahuyama",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Coliflor agridulce",
+                    "description": "Acompañado con arroz integral",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Rollitos de la primavera",
+                    "description": "Rollitos rellenos de vegetales",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Berenjenas a la parmesano",
+                    "description": "Berenjenas gratinadas con queso parmesano",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Caldo de papa, arroz, cilantro",
+                    "description": "Caldo ligero con papa y cilantro",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ensalada de champiñón y queso",
+                    "description": "Ensalada con champiñones frescos y queso",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ensalada de aguacate",
+                    "description": "Ensalada con aguacate fresco",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Ensalada típica",
+                    "description": "Ensalada tradicional con vegetales frescos",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Croquetas de verduras con queso",
+                    "description": "Croquetas de vegetales con queso",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Burritos con vegetales queso mozzarella",
+                    "description": "Burritos rellenos de vegetales y queso mozzarella",
+                    "price": 14000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Bebidas": [
+                {
+                    "name": "Jugos naturales",
+                    "description": "En agua o leche",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Limonada natural",
+                    "description": "Limonada fresca preparada al momento",
+                    "price": 6000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Bebidas saludables",
+                    "description": "Pepino/limón/miel/menta, Zanahoria/piña/jengibre, Piña/apio/zanahoria/limón, etc.",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Agua",
+                    "description": "Diferentes presentaciones",
+                    "price": 4000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Gaseosas",
+                    "description": "Coca-Cola, Postobón, Sprite, etc.",
+                    "price": 5000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cervezas",
+                    "description": "Águila, Heineken, Corona, Club Colombia, etc.",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Licores",
+                    "description": "Buchanan's, Ron, Tequila, Vodka, Aguardiente, etc.",
+                    "price": 15000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vinos",
+                    "description": "Gato Negro, Undurraga, Frontera, JP Chenet, etc.",
+                    "price": 20000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cócteles",
+                    "description": "Piña colada, Daiquiri, Margarita, Cuba libre, etc.",
+                    "price": 18000,
+                    "availability": "Year-round"
+                }
+            ]
+        },
+        "en": {
+            "Seafood": [
+                {
+                    "name": "Special Seafood Rice",
+                    "description": "Coconut rice with shrimp, sea palm, fish, and squid",
+                    "price": 45000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Spicy Prawns",
+                    "description": "Prawns in spicy sauce",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Grilled Octopus",
+                    "description": "Served with sautéed creole potatoes and vegetables",
+                    "price": 52000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Seafood-Stuffed Lobster",
+                    "description": "Lobster stuffed with a mix of seafood",
+                    "price": 75000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Fish Ceviche",
+                    "description": "Fresh fish marinated with lemon and spices",
+                    "price": 28000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Grilled Lobster",
+                    "description": "Grilled lobster",
+                    "price": 70000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Shrimp Rice",
+                    "description": "Rice prepared with fresh shrimp",
+                    "price": 35000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Shrimp Ceviche",
+                    "description": "Shrimp marinated with lemon and spices",
+                    "price": 30000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Seafood Stew",
+                    "description": "Shrimp, octopus, squid, clams, or sea palm in coconut milk",
+                    "price": 42000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Spicy Shrimp",
+                    "description": "Shrimp in spicy sauce",
+                    "price": 36000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Garlic Shrimp",
+                    "description": "Sautéed shrimp with garlic",
+                    "price": 36000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Grilled Prawns",
+                    "description": "Grilled prawns",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Shrimp-Stuffed Lobster",
+                    "description": "Lobster stuffed with fresh shrimp",
+                    "price": 72000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Grilled Lobster",
+                    "description": "Served with coconut rice, fried plantains, and salad",
+                    "price": 74000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Shrimp with Vegetables",
+                    "description": "Sautéed shrimp with fresh vegetables",
+                    "price": 34000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Shrimp Cocktail",
+                    "description": "Shrimp in cocktail sauce",
+                    "price": 32000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Garlic Prawns",
+                    "description": "Sautéed prawns with garlic",
+                    "price": 38000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Fish": [
+                {
+                    "name": "Salmon or Sea Bass Fillet",
+                    "description": "Gratinated with cheese, mozzarella, and herbs, with vegetables or breaded",
+                    "price": 48000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "250g Fish Loin with Caramelized Onions",
+                    "description": "Fish loin with caramelized onions",
+                    "price": 45000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Grilled Seafood Platter",
+                    "description": "Salmon, octopus, shrimp, sea bass, squid, served with fried plantains",
+                    "price": 55000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Seasonal Fish",
+                    "description": "Snapper, mackerel, cojinova, convinata - grilled, fried, stewed, or stuffed",
+                    "price": 40000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Catch of the Day",
+                    "description": "Snapper, cojinova, corvina",
+                    "price": 42000,
+                    "availability": "Seasonal"
+                },
+                {
+                    "name": "Pork Goulash",
+                    "description": "Pork stew with spices",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Fish Salpicón",
+                    "description": "Fresh fish mixed with vegetables",
+                    "price": 32000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Mackerel, Sea Bass, Snapper, or Salmon Fillet",
+                    "description": "Served with coconut rice, fried plantain, and typical salad",
+                    "price": 46000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Grilled Pork Loin",
+                    "description": "Grilled pork loin",
+                    "price": 36000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Meats": [
+                {
+                    "name": "Cordon Bleu",
+                    "description": "Chicken breast stuffed with ham, spinach, cheese, mozzarella, with or without bacon in sauce",
+                    "price": 42000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "250g Beef Loin in Chimichurri Sauce",
+                    "description": "Beef loin with chimichurri sauce",
+                    "price": 45000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Filet Mignon in Mushroom Sauce",
+                    "description": "Filet mignon with creamy mushroom sauce",
+                    "price": 48000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Grilled Chicken Breast in Mushroom Sauce",
+                    "description": "Chicken breast with mushroom sauce",
+                    "price": 38000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Napolitana Chicken Breast",
+                    "description": "Grilled with tomato slices, cheese, mozzarella, and herbs",
+                    "price": 40000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Sides": [
+                {
+                    "name": "Brown Rice",
+                    "description": "Cooked brown rice",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Fish Soup",
+                    "description": "Traditional fish soup",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "French Fries",
+                    "description": "Crispy fried potatoes",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Creams and Soups",
+                    "description": "Onion, mushroom, spinach",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetable Garden or Salad",
+                    "description": "Fresh vegetable salad",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cayeye",
+                    "description": "Typical green banana dish",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Corn Arepas with Artisan Sausages",
+                    "description": "Arepas with artisan sausage",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Potato Croquettes",
+                    "description": "Fried potato croquettes",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Skewers",
+                    "description": "Chicken, beef, pork",
+                    "price": 15000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Potatoes",
+                    "description": "French fries, steamed, or mashed",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pumpkin Puree",
+                    "description": "Creamy pumpkin puree",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Chicken or Fish Consommé",
+                    "description": "Chicken or fish broth",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Burro Pasta",
+                    "description": "Pasta with butter sauce",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Creole Potatoes",
+                    "description": "Cooked or fried creole potatoes",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Napolitana Pasta",
+                    "description": "Pasta with Napolitana sauce",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "White Rice",
+                    "description": "Cooked white rice",
+                    "price": 7000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Chicken Cookies",
+                    "description": "Fried chicken crackers",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pasta with Vegetables",
+                    "description": "Pasta sautéed with fresh vegetables",
+                    "price": 12000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Starters and Salads": [
+                {
+                    "name": "Chicken Salads",
+                    "description": "Potato, carrot, onion",
+                    "price": 15000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Caribañolas",
+                    "description": "With beef, chicken, ham, and cheese",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Barlovento Salads",
+                    "description": "Fruits and vegetables",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetables",
+                    "description": "Fresh steamed vegetables",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Patacones",
+                    "description": "Fried green plantain",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Stuffed Potatoes",
+                    "description": "With beef, chicken, ham, and cheese",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "French Fries",
+                    "description": "Crispy fried potatoes",
+                    "price": 9000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetable Salads",
+                    "description": "Mix of fresh vegetables",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Coconut Rice",
+                    "description": "Rice prepared with coconut",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Empanadas",
+                    "description": "Beef, tuna, ground beef, chicken, ham, and cheese",
+                    "price": 6000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Healthy Menu": [
+                {
+                    "name": "Broccoli and Cheese Cream",
+                    "description": "Smooth broccoli cream with cheese",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Soups and Creams",
+                    "description": "Cauliflower, tomato, celery",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pasta with Vegetables",
+                    "description": "Pasta sautéed with fresh vegetables",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Steamed Vegetables",
+                    "description": "Broccoli, green beans, carrot, cauliflower, fettuccine",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Napolitana Pasta",
+                    "description": "Pasta with Napolitana sauce",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Avocado Stuffed with Vegetables",
+                    "description": "Avocado stuffed with a mix of vegetables",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Green Salad",
+                    "description": "Spinach, lettuce, red onion, cucumber, bell pepper",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Pumpkin Cream",
+                    "description": "Smooth pumpkin cream",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Sweet and Sour Cauliflower",
+                    "description": "Served with brown rice",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Spring Rolls",
+                    "description": "Rolls stuffed with vegetables",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Parmesan Eggplant",
+                    "description": "Gratinated eggplant with Parmesan cheese",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Potato, Rice, and Cilantro Broth",
+                    "description": "Light broth with potato and cilantro",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Mushroom and Cheese Salad",
+                    "description": "Salad with fresh mushrooms and cheese",
+                    "price": 14000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Avocado Salad",
+                    "description": "Salad with fresh avocado",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Typical Salad",
+                    "description": "Traditional salad with fresh vegetables",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetable Croquettes with Cheese",
+                    "description": "Vegetable croquettes with cheese",
+                    "price": 12000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Vegetable and Mozzarella Burritos",
+                    "description": "Burritos stuffed with vegetables and mozzarella cheese",
+                    "price": 14000,
+                    "availability": "Year-round"
+                }
+            ],
+            "Drinks": [
+                {
+                    "name": "Natural Juices",
+                    "description": "In water or milk",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Natural Lemonade",
+                    "description": "Freshly made lemonade",
+                    "price": 6000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Healthy Drinks",
+                    "description": "Cucumber/lemon/honey/mint, carrot/pineapple/ginger, pineapple/celery/carrot/lemon, etc.",
+                    "price": 10000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Water",
+                    "description": "Various presentations",
+                    "price": 4000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Sodas",
+                    "description": "Coca-Cola, Postobón, Sprite, etc.",
+                    "price": 5000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Beers",
+                    "description": "Águila, Heineken, Corona, Club Colombia, etc.",
+                    "price": 8000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Spirits",
+                    "description": "Buchanan's, rum, tequila, vodka, aguardiente, etc.",
+                    "price": 15000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Wines",
+                    "description": "Gato Negro, Undurraga, Frontera, JP Chenet, etc.",
+                    "price": 20000,
+                    "availability": "Year-round"
+                },
+                {
+                    "name": "Cocktails",
+                    "description": "Piña colada, Daiquiri, Margarita, Cuba libre, etc.",
+                    "price": 18000,
+                    "availability": "Year-round"
+                }
+            ]
+        },
+        "fr": {
+            "Fruits de mer": [
+                {
+                    "name": "Riz spécial aux fruits de mer",
+                    "description": "Riz à la noix de coco avec crevettes, palmier de mer, poisson et calmar",
+                    "price": 45000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Crevettes piquantes",
+                    "description": "Crevettes dans une sauce épicée",
+                    "price": 38000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Poulpe grillé",
+                    "description": "Servi avec des pommes de terre créoles sautées et des légumes",
+                    "price": 52000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Homard farci aux fruits de mer",
+                    "description": "Homard farci avec un mélange de fruits de mer",
+                    "price": 75000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Ceviche de poisson",
+                    "description": "Poisson frais mariné au citron et aux épices",
+                    "price": 28000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Homard grillé",
+                    "description": "Homard grillé",
+                    "price": 70000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Riz aux crevettes",
+                    "description": "Riz préparé avec des crevettes fraîches",
+                    "price": 35000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Ceviche de crevettes",
+                    "description": "Crevettes marinées au citron et aux épices",
+                    "price": 30000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Ragoût de fruits de mer",
+                    "description": "Crevettes, poulpe, calmar, palourdes ou palmier de mer dans du lait de coco",
+                    "price": 42000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Crevettes épicées",
+                    "description": "Crevettes dans une sauce épicée",
+                    "price": 36000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Crevettes à l'ail",
+                    "description": "Crevettes sautées à l'ail",
+                    "price": 36000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Crevettes grillées",
+                    "description": "Crevettes grillées",
+                    "price": 38000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Homard farci aux crevettes",
+                    "description": "Homard farci avec des crevettes fraîches",
+                    "price": 72000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Homard grillé",
+                    "description": "Servi avec du riz à la noix de coco, des bananes plantains frites et une salade",
+                    "price": 74000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Crevettes aux légumes",
+                    "description": "Crevettes sautées avec des légumes frais",
+                    "price": 34000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Cocktail de crevettes",
+                    "description": "Crevettes dans une sauce cocktail",
+                    "price": 32000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Crevettes à l'ail",
+                    "description": "Crevettes sautées à l'ail",
+                    "price": 38000,
+                    "availability": "Toute l'année"
+                }
+            ],
+            "Poissons": [
+                {
+                    "name": "Filet de saumon ou de bar",
+                    "description": "Gratiné avec du fromage, de la mozzarella et des herbes, avec des légumes ou pané",
+                    "price": 48000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Longe de poisson de 250g aux oignons caramélisés",
+                    "description": "Longe de poisson avec des oignons caramélisés",
+                    "price": 45000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Plateau de fruits de mer grillés",
+                    "description": "Saumon, poulpe, crevettes, bar, calmar, servi avec des bananes plantains frites",
+                    "price": 55000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Poisson de saison",
+                    "description": "Vivaneau, maquereau, cojinova, convinata - grillé, frit, en ragoût ou farci",
+                    "price": 40000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Pêche du jour",
+                    "description": "Vivaneau, cojinova, corvine",
+                    "price": 42000,
+                    "availability": "Saisonnier"
+                },
+                {
+                    "name": "Goulasch de porc",
+                    "description": "Ragoût de porc aux épices",
+                    "price": 38000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salpicón de poisson",
+                    "description": "Poisson frais mélangé avec des légumes",
+                    "price": 32000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Filet de maquereau, bar, vivaneau ou saumon",
+                    "description": "Servi avec du riz à la noix de coco, des bananes plantains frites et une salade typique",
+                    "price": 46000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Longe de porc grillée",
+                    "description": "Longe de porc grillée",
+                    "price": 36000,
+                    "availability": "Toute l'année"
+                }
+            ],
+            "Viandes": [
+                {
+                    "name": "Cordon bleu",
+                    "description": "Poitrine de poulet farcie au jambon, épinards, fromage, mozzarella, avec ou sans bacon en sauce",
+                    "price": 42000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Longe de bœuf de 250g en sauce chimichurri",
+                    "description": "Longe de bœuf avec sauce chimichurri",
+                    "price": 45000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Filet mignon en sauce aux champignons",
+                    "description": "Filet mignon avec une sauce crémeuse aux champignons",
+                    "price": 48000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Poitrine de poulet grillée en sauce aux champignons",
+                    "description": "Poitrine de poulet avec sauce aux champignons",
+                    "price": 38000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Poitrine de poulet napolitaine",
+                    "description": "Grillée avec des tranches de tomate, fromage, mozzarella et herbes",
+                    "price": 40000,
+                    "availability": "Toute l'année"
+                }
+            ],
+            "Accompagnements": [
+                {
+                    "name": "Riz brun",
+                    "description": "Riz brun cuit",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Soupe de poisson",
+                    "description": "Soupe de poisson traditionnelle",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Frites",
+                    "description": "Pommes de terre frites croustillantes",
+                    "price": 9000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Crèmes et soupes",
+                    "description": "Oignon, champignons, épinards",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Jardin de légumes ou salade",
+                    "description": "Salade de légumes frais",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Cayeye",
+                    "description": "Plat typique à base de banane verte",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Arepas de maïs avec saucisses artisanales",
+                    "description": "Arepas avec saucisse artisanale",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Croquettes de pommes de terre",
+                    "description": "Croquettes de pommes de terre frites",
+                    "price": 9000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Brochettes",
+                    "description": "Poulet, bœuf, porc",
+                    "price": 15000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pommes de terre",
+                    "description": "Frites, vapeur ou en purée",
+                    "price": 9000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Purée de citrouille",
+                    "description": "Purée crémeuse de citrouille",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Consommé de poulet ou poisson",
+                    "description": "Bouillon de poulet ou de poisson",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pâtes au beurre",
+                    "description": "Pâtes avec sauce au beurre",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pommes de terre créoles",
+                    "description": "Pommes de terre créoles cuites ou frites",
+                    "price": 9000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pâtes napolitaines",
+                    "description": "Pâtes avec sauce napolitaine",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Riz blanc",
+                    "description": "Riz blanc cuit",
+                    "price": 7000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Biscuits de poulet",
+                    "description": "Crackers de poulet frits",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pâtes aux légumes",
+                    "description": "Pâtes sautées avec des légumes frais",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                }
+            ],
+            "Entrées et salades": [
+                {
+                    "name": "Salades de poulet",
+                    "description": "Pomme de terre, carotte, oignon",
+                    "price": 15000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Caribañolas",
+                    "description": "Avec bœuf, poulet, jambon et fromage",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salades Barlovento",
+                    "description": "Fruits et légumes",
+                    "price": 14000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Légumes",
+                    "description": "Légumes frais cuits à la vapeur",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Patacones",
+                    "description": "Banane plantain verte frite",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pommes de terre farcies",
+                    "description": "Avec bœuf, poulet, jambon et fromage",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Frites",
+                    "description": "Pommes de terre frites croustillantes",
+                    "price": 9000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salades de légumes",
+                    "description": "Mélange de légumes frais",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Riz à la noix de coco",
+                    "description": "Riz préparé avec de la noix de coco",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Empanadas",
+                    "description": "Bœuf, thon, bœuf haché, poulet, jambon et fromage",
+                    "price": 6000,
+                    "availability": "Toute l'année"
+                }
+            ],
+            "Menu santé": [
+                {
+                    "name": "Crème de brocoli et fromage",
+                    "description": "Crème lisse de brocoli avec fromage",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Soupes et crèmes",
+                    "description": "Chou-fleur, tomate, céleri",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pâtes aux légumes",
+                    "description": "Pâtes sautées avec des légumes frais",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Légumes vapeur",
+                    "description": "Brocoli, haricots verts, carotte, chou-fleur, fettuccine",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Pâtes napolitaines",
+                    "description": "Pâtes avec sauce napolitaine",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Avocat farci aux légumes",
+                    "description": "Avocat farci avec un mélange de légumes",
+                    "price": 14000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salade verte",
+                    "description": "Épinards, laitue, oignon rouge, concombre, poivron",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Crème de citrouille",
+                    "description": "Crème lisse de citrouille",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Chou-fleur aigre-doux",
+                    "description": "Servi avec du riz brun",
+                    "price": 14000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Rouleaux de printemps",
+                    "description": "Rouleaux farcis de légumes",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Aubergine au parmesan",
+                    "description": "Aubergine gratinée au fromage parmesan",
+                    "price": 14000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Bouillon de pommes de terre, riz et coriandre",
+                    "description": "Bouillon léger avec pommes de terre et coriandre",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salade de champignons et fromage",
+                    "description": "Salade avec des champignons frais et du fromage",
+                    "price": 14000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salade d'avocat",
+                    "description": "Salade avec de l'avocat frais",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Salade typique",
+                    "description": "Salade traditionnelle avec des légumes frais",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Croquettes de légumes avec fromage",
+                    "description": "Croquettes de légumes avec fromage",
+                    "price": 12000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Burritos aux légumes et mozzarella",
+                    "description": "Burritos farcis de légumes et de fromage mozzarella",
+                    "price": 14000,
+                    "availability": "Toute l'année"
+                }
+            ],
+            "Boissons": [
+                {
+                    "name": "Jus naturels",
+                    "description": "À l'eau ou au lait",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Limonade naturelle",
+                    "description": "Limonade fraîche préparée sur place",
+                    "price": 6000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Boissons santé",
+                    "description": "Concombre/citron/miel/menthe, carotte/ananas/gingembre, ananas/céleri/carotte/citron, etc.",
+                    "price": 10000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Eau",
+                    "description": "Différentes présentations",
+                    "price": 4000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Sodas",
+                    "description": "Coca-Cola, Postobón, Sprite, etc.",
+                    "price": 5000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Bières",
+                    "description": "Águila, Heineken, Corona, Club Colombia, etc.",
+                    "price": 8000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Spiritueux",
+                    "description": "Buchanan's, rhum, tequila, vodka, aguardiente, etc.",
+                    "price": 15000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Vins",
+                    "description": "Gato Negro, Undurraga, Frontera, JP Chenet, etc.",
+                    "price": 20000,
+                    "availability": "Toute l'année"
+                },
+                {
+                    "name": "Cocktails",
+                    "description": "Piña colada, Daiquiri, Margarita, Cuba libre, etc.",
+                    "price": 18000,
+                    "availability": "Toute l'année"
+                }
+            ]
+        }
+    },
+    "notes": "El precio y la disponibilidad de todos los platos varía de acuerdo a la época."
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu</title>
+    <link rel="stylesheet" href="min/bootstrap-icons.css">
+    <link rel="stylesheet" href="min/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="page-container">
+        <div class="container">
+            <!-- Decorative borders -->
+            <div class="menu-border border-top-left"></div>
+            <div class="menu-border border-top-right"></div>
+            <div class="menu-border border-bottom-left"></div>
+            <div class="menu-border border-bottom-right"></div>
+            
+            <header>
+                <!-- Corner decorations -->
+                <div class="corner-decoration corner-top-left"></div>
+                <div class="corner-decoration corner-top-right"></div>
+                
+                <div class="hotel-logo">
+                    <div class="logo-emblem"><img src="img/logo.png" alt="" style="width: 120px;height: 120px;object-fit: contain;"></div>
+                    <h1 id="hotel-name">CASA BARLOVENTO</h1>
+                    <p class="hotel-subtitle">Experiencia Gastronómica Exclusiva</p>
+                </div>
+                
+                <div class="language-selector text-center">
+                    <button class="btn btn-sm btn-primary mx-2" data-lang="es">Español</button>
+                    <button class="btn btn-sm btn-outline-primary mx-2" data-lang="en">English</button>
+                    <button class="btn btn-sm btn-outline-primary mx-2" data-lang="fr">Français</button>
+                </div>
+            </header>
+            
+            <main>
+                <section id="welcome-section">
+                    <h2 id="welcome-title">Bienvenido a nuestra experiencia culinaria</h2>
+                    <p id="welcome-text">Disfrute de nuestra exquisita selección gastronómica, cuidadosamente elaborada con ingredientes de la más alta calidad. Cada plato refleja nuestro compromiso con la excelencia y la perfección culinaria, creando una experiencia sensorial única para nuestros distinguidos huéspedes.</p>
+                </section>
+
+                <section id="menu-container">
+                    <div class="menu-items"></div>
+                </section>
+                
+                <!-- Corner decorations -->
+                <div class="corner-decoration corner-bottom-left"></div>
+                <div class="corner-decoration corner-bottom-right"></div>
+            </main>
+
+            <footer class="text-center">
+                <p id="footer-text">© 2025 Casa Barlovento. Todos los derechos reservados.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="min/bootstrap.bundle.min.js"></script>
+    <script src="min/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
