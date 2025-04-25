@@ -104,7 +104,7 @@ $(document).ready(function() {
             // Add category header
             $('.menu-items').append(`
                 <div id="${containerId}">
-                    <h3 class="category-title">${categoryName}</h3>
+                 <h3 class="category-title text-center" style="color: #00887a !important; border-bottom: 2px solid rgb(218, 174, 125) !important; padding-bottom: 10px !important; font-size: 24px !important; margin: 30px 0 20px 0 !important; letter-spacing: 1px !important; font-weight: 700 !important;"><strong>${categoryName.toUpperCase()}</strong></h3>
                     <div class="row"></div>
                 </div>
             `);
