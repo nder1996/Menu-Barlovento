@@ -1,0 +1,332 @@
+{"timestamp":"2025-05-24T16:36:17.495Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:36:38.062Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:36:56.039Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:37:08.494Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T16:37:08.557Z","level":"ERROR","message":"Error: ENOENT: no such file or directory, stat 'C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\backend\\public\\index.html'"}
+{"timestamp":"2025-05-24T16:37:08.992Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T16:38:17.429Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:39:40.899Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:41:14.175Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:41:18.109Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T16:41:18.138Z","level":"ERROR","message":"Error: ENOENT: no such file or directory, stat 'C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\backend\\public\\index.html'"}
+{"timestamp":"2025-05-24T16:41:18.519Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T16:45:46.292Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T16:45:52.387Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T16:45:53.088Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T16:45:53.228Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T16:45:53.551Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T16:45:53.599Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T16:45:53.613Z","level":"INFO","message":"GET /controllers/menuController.js"}
+{"timestamp":"2025-05-24T16:45:53.873Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T16:45:54.181Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T16:45:54.738Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T16:45:54.756Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T16:45:54.836Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T16:45:54.851Z","level":"INFO","message":"GET /controllers/menuController.js"}
+{"timestamp":"2025-05-24T16:45:54.889Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:04:50.160Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:05:03.434Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:05:03.772Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:05:03.794Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:05:03.930Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:05:17.521Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:05:17.544Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:05:17.891Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:05:17.904Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:05:17.926Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:05:18.284Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:05:18.681Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:05:18.806Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:05:19.064Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T17:07:54.591Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:07:55.096Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:07:56.229Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:07:56.327Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:07:56.670Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:07:56.680Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:07:56.830Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:07:56.912Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T17:08:12.677Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:08:13.075Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:08:13.223Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:08:13.237Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:08:13.364Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:08:13.369Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:08:13.488Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:08:20.095Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:08:20.620Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:08:20.650Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:08:21.020Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:08:21.034Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:08:21.106Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:10:51.645Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:10:52.168Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:10:52.989Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:10:53.011Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:10:53.603Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:10:53.622Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T17:10:53.806Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:10:53.841Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:21.477Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:11:22.024Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:11:22.238Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:22.252Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:11:22.631Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:11:22.636Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T17:11:22.644Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:22.694Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:11:39.625Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:11:42.540Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:11:42.702Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:11:42.721Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:11:43.126Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:43.139Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:11:43.149Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:11:43.164Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:11:43.311Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:43.314Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:43.566Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:11:43.570Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T17:11:43.603Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:11:43.614Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T17:11:43.713Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:43.726Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:11:43.731Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T17:11:43.739Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:43.759Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:43.866Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:11:43.911Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:11:43.960Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:11:44.247Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T17:11:47.078Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:11:47.901Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:47.984Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:11:48.033Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:11:48.066Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T17:11:48.123Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:11:48.200Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:11:55.064Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:11:55.238Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T17:12:21.025Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T17:12:23.271Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:12:23.526Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:23.600Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:12:23.959Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:12:23.993Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:12:23.997Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:24.454Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:12:24.638Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:12:24.693Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:12:25.078Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:25.187Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:25.192Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:12:25.197Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:12:25.277Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:25.286Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:12:25.698Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:12:25.703Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:12:25.715Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:12:25.726Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:12:25.759Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:25.800Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:12:25.806Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T17:12:25.813Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:25.944Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:25.997Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:12:26.041Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:12:26.048Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T17:12:29.966Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T17:12:30.557Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T17:12:30.647Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T17:12:30.856Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T17:12:30.918Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:30:36.458Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:30:36.627Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:30:36.633Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:30:36.896Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:30:36.900Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:30:37.021Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:30:37.197Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T19:30:42.098Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:30:42.275Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:30:42.281Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:30:42.488Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:30:42.492Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:30:42.500Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:30:42.537Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T19:32:42.063Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:32:42.574Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:32:42.740Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:32:42.749Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:32:42.941Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:32:42.979Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:32:43.010Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:32:43.116Z","level":"INFO","message":"GET /js/controllers/index.js"}
+{"timestamp":"2025-05-24T19:32:43.222Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:34:52.756Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:34:53.427Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:34:53.849Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:34:53.874Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:34:54.406Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:34:54.420Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:34:54.427Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:34:54.695Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:35:05.103Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:35:05.412Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:35:05.607Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:35:05.621Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:35:05.771Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:35:05.783Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:35:05.895Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:35:05.936Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:35:25.156Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:35:33.022Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:35:33.159Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:35:33.168Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:35:33.316Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:35:33.351Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:35:33.355Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:35:33.525Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:35:55.606Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:35:55.761Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:35:55.781Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:35:55.976Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:35:55.979Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:35:55.984Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:38:22.781Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:38:23.046Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:38:23.235Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:38:23.253Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:38:23.409Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:38:23.456Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:38:23.702Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:38:23.940Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:39:14.566Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:39:15.400Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:39:15.915Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:39:15.952Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:39:16.317Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:39:16.327Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:39:16.743Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:39:36.350Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:39:36.999Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:39:37.400Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:39:37.443Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:39:38.138Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:39:38.183Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:40:09.092Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:40:10.546Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:40:11.301Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:40:11.393Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:40:11.872Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:40:11.941Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:40:12.246Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:40:50.598Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:40:51.182Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:40:51.525Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:40:51.538Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:40:51.858Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:40:51.877Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:41:16.438Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:41:17.332Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:41:18.152Z","level":"INFO","message":"GET /style.css"}
+{"timestamp":"2025-05-24T19:41:18.290Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:41:18.665Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:41:18.743Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:41:20.172Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:42:42.615Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:42:43.800Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:42:44.059Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:42:44.072Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:42:44.300Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:42:44.310Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:42:44.405Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:42:44.596Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:43:06.090Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:43:06.395Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:43:06.404Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:43:06.812Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:43:06.870Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:43:06.895Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:43:11.971Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:43:22.355Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:43:22.644Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:44:42.897Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:44:43.649Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:44:44.062Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:44:44.069Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:44:44.085Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:44:44.911Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:44:44.953Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:44:46.073Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:44:57.056Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:44:57.371Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:44:57.657Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:44:57.662Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:44:57.671Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:44:57.855Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:44:57.859Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:44:58.011Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:45:23.677Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:45:24.190Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:45:24.473Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:45:24.484Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:45:24.538Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:45:24.736Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:45:24.749Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:45:24.927Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:45:50.782Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:45:51.263Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:45:52.284Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:45:52.323Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:45:52.467Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:45:52.896Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:45:52.901Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:45:53.282Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:46:08.843Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:46:14.156Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:46:14.493Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:46:14.893Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:46:14.905Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:46:14.911Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:46:15.046Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:46:15.053Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:46:20.538Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:46:20.891Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:46:21.256Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:46:21.286Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:46:21.310Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:46:21.571Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:46:21.576Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:46:21.773Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:47:56.258Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:47:56.693Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:47:56.973Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:47:56.991Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:47:57.010Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:47:57.197Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:47:57.207Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:47:59.721Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:48:00.191Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:48:00.664Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:48:00.742Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:48:00.889Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:48:01.574Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:48:01.617Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:48:01.874Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:48:04.666Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:48:05.409Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:48:05.771Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:48:05.783Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:48:05.937Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:48:06.197Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:48:06.208Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:48:06.763Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-05-24T19:48:11.131Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:48:11.544Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:48:11.925Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:48:11.977Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:48:11.991Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:48:12.182Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:48:12.187Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
+{"timestamp":"2025-05-24T19:48:12.371Z","level":"INFO","message":"GET /js/script.js"}

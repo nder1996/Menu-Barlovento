@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Barlovento - Menú</title>
+    <!-- CSS y recursos externos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CASA BARLOVENTO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pedidos.html">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="configuracion.html">Configuración</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <div class="header text-center mb-4">
+            <h1>CASA BARLOVENTO</h1>
+            <p>Experiencia Gastronómica Exclusiva</p>
+        </div>
+
+        <!-- Sección Administración del Menú -->
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2>Administración del Menú</h2>
+                        
+                        <div class="d-flex gap-2">
+                            <!-- Filtro de categorías -->
+                            <div class="input-group" style="width: 250px;">
+                                <span class="input-group-text">
+                                    <i class="bi bi-filter"></i>
+                                </span>
+                                <select id="filtroCategoria" class="form-select">
+                                    <option value="">Todas las categorías</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Botón nuevo plato -->
+                            <button class="btn btn-primary" id="btnNuevoPlato" data-bs-toggle="modal" data-bs-target="#modalPlato">
+                                <i class="bi bi-plus-circle"></i> Nuevo Plato
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Tabla de platos -->
+                    <div class="card shadow-sm">
+                        <div class="card-body p-0">
+                            <div class="table-responsive" style="height: 500px; overflow-y: auto;">
+                                <table class="table table-striped table-hover mb-0">
+                                    <thead class="bg-dark text-white sticky-top">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Categoría</th>
+                                            <th>Nombre</th>
+                                            <th>Descripción</th>
+                                            <th>Precio</th>
+                                            <th>Estado</th>
+                                            <th>Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="listaMenu">
+                                        <!-- Los platos se cargarán dinámicamente -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Template para cada plato -->
+    <template id="platoTemplate">
+        <tr class="card-plato">
+            <td class="plato-id"></td>
+            <td class="plato-categoria"></td>
+            <td class="plato-nombre fw-bold"></td>
+            <td class="plato-descripcion text-muted small"></td>
+            <td class="plato-precio fw-bold"></td>
+            <td><span class="badge plato-estado"></span></td>
+            <td>
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-outline-primary btn-editar-plato">
+                        <i class="bi bi-pencil"></i>
+                    </button>
+                    <button class="btn btn-sm btn-outline-danger btn-eliminar-plato">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            </td>
+        </tr>
+    </template>
+
+    <!-- Modal para Agregar Plato -->
+    <div class="modal fade" id="nuevoPlatoModal" tabindex="-1" aria-labelledby="nuevoPlatoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="nuevoPlatoModalLabel">Nuevo Plato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formNuevoPlato">
+                        <input type="hidden" id="platoId">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nombrePlato" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombrePlato" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="selectCategoria" class="form-label">Categoría</label>
+                                <select class="form-select" id="selectCategoria" required>
+                                    <option value="">Seleccione una categoría</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcionPlato" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="descripcionPlato" rows="3"></textarea>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="precioPlato" class="form-label">Precio (€)</label>
+                                <input type="number" class="form-control" id="precioPlato" step="0.01" min="0" required>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-check form-switch mt-4">
+                                    <input class="form-check-input" type="checkbox" id="estadoPlato" checked>
+                                    <label class="form-check-label" for="estadoPlato">Disponible</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="btnGuardarPlato">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Editar Plato -->
+    <div class="modal fade" id="editarPlatoModal" tabindex="-1" aria-labelledby="editarPlatoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h5 class="modal-title" id="editarPlatoModalLabel">Editar Plato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formEditPlato">
+                        <input type="hidden" id="editPlatoId">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="editNombrePlato" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="editNombrePlato" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="editSelectCategoria" class="form-label">Categoría</label>
+                                <select class="form-select" id="editSelectCategoria" required>
+                                    <option value="">Seleccione una categoría</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editDescripcionPlato" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="editDescripcionPlato" rows="3"></textarea>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="editPrecioPlato" class="form-label">Precio (€)</label>
+                                <input type="number" class="form-control" id="editPrecioPlato" step="0.01" min="0" required>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-check form-switch mt-4">
+                                    <input class="form-check-input" type="checkbox" id="editEstadoPlato">
+                                    <label class="form-check-label" for="editEstadoPlato">Disponible</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-warning" id="btnActualizarPlato">Actualizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toasts para notificaciones -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="notificacionToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Casa Barlovento</strong>
+                <small>Ahora</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="notificacionMensaje">
+                <!-- Mensaje de notificación -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/menu.js"></script>
+</body>
+
+</html>

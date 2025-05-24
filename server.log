@@ -1,0 +1,351 @@
+{"timestamp":"2025-05-20T03:29:26.548Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:29:26.643Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:29:42.860Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:29:43.000Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:29:43.158Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:29:43.249Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:30:06.880Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:30:06.909Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:30:07.039Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:30:07.208Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:30:37.449Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:30:37.531Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:30:37.916Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:30:38.347Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:30:57.585Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:30:57.741Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:30:58.257Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:30:58.425Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:31:14.683Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:14.860Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:31:15.234Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:15.339Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:31:19.309Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:31:36.437Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:36.519Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:36.650Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:31:36.717Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:31:38.271Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:31:38.395Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:38.406Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:31:49.435Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:49.446Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:31:49.454Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:31:49.461Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:31:56.955Z","operation":"DELETE","route":"/api/platos/1","data":{"id":"1"},"result":null}
+{"timestamp":"2025-05-20T03:31:56.960Z","operation":"NOT_FOUND","route":"/api/platos/1","data":{"id":"1"},"result":null}
+{"timestamp":"2025-05-20T03:33:45.800Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:33:45.880Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:33:45.889Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:33:45.900Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:33:52.633Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:34:06.762Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:34:06.847Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:34:07.020Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:34:07.177Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:34:10.457Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:34:46.650Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:34:46.740Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:34:47.060Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:34:47.352Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:38:03.911Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:47:23.454Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:47:32.617Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:47:32.634Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:47:32.668Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":50}}
+{"timestamp":"2025-05-20T03:47:32.707Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:48:12.259Z","operation":"DELETE","route":"/api/platos/1","data":{"id":"1"},"result":null}
+{"timestamp":"2025-05-20T03:48:12.303Z","operation":"SUCCESS","route":"/api/platos/1","data":{"id":"1"},"result":{"changes":1}}
+{"timestamp":"2025-05-20T03:48:12.359Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:48:12.373Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T03:48:39.662Z","operation":"UPDATE","route":"/api/platos/2","data":{"id":"2","idCategoria":"1","nombre":"Pasta Carbonara","descripcion":"Pasta con salsa de nata","precio":"10000"},"result":null}
+{"timestamp":"2025-05-20T03:48:39.681Z","operation":"SUCCESS","route":"/api/platos/2","data":{"id":"2"},"result":{"changes":1}}
+{"timestamp":"2025-05-20T03:48:39.838Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:48:39.842Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T03:52:04.817Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:52:04.821Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T03:52:04.839Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:52:04.841Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:58:13.209Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T03:58:17.132Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:58:17.144Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:58:17.148Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T03:58:17.157Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T03:58:18.499Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:58:18.505Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T03:58:18.512Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T03:58:18.514Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:01:47.934Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:01:50.274Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:01:50.289Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:01:50.296Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:01:50.310Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:01:51.306Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:01:51.311Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:01:51.327Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:01:51.331Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:02:03.920Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:02:06.043Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:06.055Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:06.061Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:02:06.076Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:02:06.542Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:06.550Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:02:06.574Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:06.582Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:02:17.939Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:02:19.865Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:19.882Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:19.888Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:02:19.902Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:02:21.226Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:21.235Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:02:21.248Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:02:21.250Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:02:59.895Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:03:01.706Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:03:01.728Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:03:01.787Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:03:01.795Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:03:03.093Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:03:03.100Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:03:03.125Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:03:03.129Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-05-20T04:49:25.693Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:49:47.833Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:51:13.768Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:52:24.205Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:52:26.144Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:52:55.559Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:53:07.086Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:53:22.586Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:53:36.890Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-20T04:53:39.031Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:53:39.042Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:53:39.047Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-20T04:53:39.056Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-20T04:53:48.290Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:53:48.330Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-20T04:53:48.406Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-20T04:53:48.464Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:31:08.629Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:31:13.306Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:31:13.317Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:31:13.329Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:31:13.342Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:34:05.076Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:34:06.835Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:34:06.841Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:34:06.843Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:34:06.851Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:34:09.362Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:34:09.431Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:34:09.462Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:34:09.472Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:52:55.119Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:53:00.331Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:53:00.503Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:00.512Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:00.517Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:00.540Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:53:02.083Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:02.089Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:02.095Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:02.101Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:53:07.109Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:07.112Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:07.115Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:07.117Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:53:36.425Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:53:39.026Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:39.039Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:39.044Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:39.052Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:53:40.390Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:40.392Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:40.398Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:40.401Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:53:46.759Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:53:48.565Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:48.576Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:48.652Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:48.660Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:53:49.979Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:49.986Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:53:49.990Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:53:49.996Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:04.578Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:54:06.025Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:06.043Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:06.051Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:06.073Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:06.262Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:06.265Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:06.270Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:06.273Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:10.270Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:54:13.167Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:13.180Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:13.183Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:13.200Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:14.888Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:14.891Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:14.895Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:14.899Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:26.085Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:54:28.937Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:28.968Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:28.986Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:29.087Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:29.647Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:29.651Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:29.655Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:29.666Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:40.394Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:54:41.819Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:41.828Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:41.832Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:41.842Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:42.363Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:42.366Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:42.373Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:42.377Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:57.321Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:54:58.984Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:58.995Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:58.998Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:59.031Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:54:59.462Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:59.467Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:54:59.483Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:54:59.518Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:55:10.494Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:55:12.981Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:55:12.995Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:55:12.999Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:55:13.011Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:55:15.407Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:55:15.418Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T02:55:15.428Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T02:55:15.435Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T02:58:32.092Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:59:00.188Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T02:59:38.850Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:00:56.851Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:01:08.420Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:02:35.602Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:03:29.821Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:03:56.301Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:05:07.884Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:05:42.912Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:06:04.895Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:06:05.235Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:05.352Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:05.429Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:06:05.500Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:06:08.566Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:08.569Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:06:08.577Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:08.583Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:06:21.537Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:06:21.673Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:21.700Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:21.780Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:06:21.820Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:06:23.744Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:23.765Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:23.778Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:06:23.875Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:06:25.451Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:25.456Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:06:25.464Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:06:25.476Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:22:47.208Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:22:47.702Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:22:47.752Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:22:47.860Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:22:47.938Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:22:49.323Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:22:49.326Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:22:49.418Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:22:49.427Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:22:50.072Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:22:50.076Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:22:50.081Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:22:50.088Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:23:38.779Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:23:42.418Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:23:42.428Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:23:42.433Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:23:42.442Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:23:43.922Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:23:43.930Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:23:43.947Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:23:43.951Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:31:04.498Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:31:07.778Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:07.798Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:31:08.007Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:08.015Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:31:09.844Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:09.853Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:31:09.863Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:09.869Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:31:27.444Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:31:29.193Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:29.206Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:29.209Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:31:29.216Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:31:29.543Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:29.552Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:31:29.572Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:29.583Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:31:49.743Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:31:51.180Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:51.193Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:51.195Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:31:51.203Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:31:51.614Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:51.617Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":0}}
+{"timestamp":"2025-05-21T03:31:51.640Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-05-21T03:31:51.666Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":49}}
+{"timestamp":"2025-05-21T03:32:23.113Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:32:33.640Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:35:26.517Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:35:34.051Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:36:16.826Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:39:43.236Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:39:53.376Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:39:58.161Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:40:04.069Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:40:07.360Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:40:31.958Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:41:25.893Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:41:43.546Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:42:25.443Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:42:44.723Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:42:52.263Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:42:54.982Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:45:02.609Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:45:20.552Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:45:25.709Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:45:33.691Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:48:31.045Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:53:11.100Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:55:53.165Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:56:50.026Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T03:59:47.134Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:03:58.389Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:05:35.980Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:06:03.288Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:06:34.163Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:06:38.575Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:06:55.999Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:07:33.373Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:07:47.214Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:07:57.421Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:08:31.522Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:10:05.223Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:10:16.791Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:15:41.681Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
+{"timestamp":"2025-05-21T04:25:21.702Z","operation":"SERVER_START","route":"/","data":null,"result":{"port":3000,"message":"Servidor iniciado en http://localhost:3000"}}
