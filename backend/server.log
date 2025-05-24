@@ -330,3 +330,10 @@
 {"timestamp":"2025-05-24T19:48:12.182Z","level":"INFO","message":"GET /js/menuFunctions.js"}
 {"timestamp":"2025-05-24T19:48:12.187Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
 {"timestamp":"2025-05-24T19:48:12.371Z","level":"INFO","message":"GET /js/script.js"}
+{"timestamp":"2025-05-24T19:50:53.232Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-05-24T19:50:57.412Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-05-24T19:50:57.666Z","level":"INFO","message":"GET /css/style.css"}
+{"timestamp":"2025-05-24T19:50:57.680Z","level":"INFO","message":"GET /js/menu.js"}
+{"timestamp":"2025-05-24T19:50:57.764Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-05-24T19:50:57.970Z","level":"INFO","message":"GET /js/menuFunctions.js"}
+{"timestamp":"2025-05-24T19:50:57.978Z","level":"INFO","message":"GET /backend/controllers/menuController.js"}
