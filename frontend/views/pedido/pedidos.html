@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Pedidos - Barlovento</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/views/pedido/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">            <a class="navbar-brand" href="index.html">
+                <img src="/assets/img/logo.png" alt="Logo Barlovento" height="40">
+                Barlovento
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                title="Abrir menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pedidos.html">Pedidos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h1><i class="bi bi-receipt"></i> Gestión de Pedidos</h1>
+            </div>
+            <div class="col-md-6 text-end">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nuevoPedidoModal">
+                    <i class="bi bi-plus-circle"></i> Nuevo Pedido
+                </button>
+            </div>
+        </div> <!-- Filtros -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtros</h5>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label for="filtroMesa" class="form-label">Número de Mesa</label>
+                                <input type="number" class="form-control" id="filtroMesa" min="1">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="filtroFecha" class="form-label">Fecha</label>
+                                <input type="date" class="form-control" id="filtroFecha">
+                            </div>
+                            <div class="col-md-4 d-flex align-items-end">
+                                <button type="button" class="btn btn-primary w-100" id="btnFiltrar">
+                                    <i class="bi bi-search"></i> Filtrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tabla de Pedidos -->
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead class="table-dark text-center">
+                            <tr>
+                                <th width="5%">#</th>
+                                <th width="8%">Mesa</th>
+                                <th width="20%">Plato Principal</th>
+                                <th width="10%">Total Pedido</th>
+                                <th width="12%">Fecha</th>
+                                <th width="10%">Estado</th>
+                                <th width="25%">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pedidosTableBody" class="text-center">
+                            <!-- Los pedidos se cargarán dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+                <div id="sinPedidos" class="alert alert-info d-none">
+                    <i class="bi bi-info-circle"></i> No hay pedidos disponibles.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Nuevo Pedido -->
+    <div class="modal fade" id="nuevoPedidoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nuevo Pedido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        title="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formNuevoPedido">
+                        <div class="mb-3">
+                            <label for="numeroMesa" class="form-label">Número de Mesa</label>
+                            <input type="number" class="form-control" id="numeroMesa" required min="1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="selectMenu" class="form-label">Plato Principal</label>
+                            <select class="form-select" id="selectMenu">
+                                <option value="">-- Seleccione un plato --</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="btnGuardarPedido">Guardar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Modal Detalles del Pedido -->
+    <div class="modal fade" id="detallesPedidoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title"><i class="bi bi-info-circle"></i> Detalles del Pedido</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"
+                        title="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3">
+                        <div class="card-header bg-light">
+                            <h6 class="mb-0">Información del Pedido</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p><strong>ID Pedido:</strong> <span id="detalleId" class="badge bg-dark"></span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p><strong>Mesa:</strong> <span id="detalleMesa"></span></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p><strong>Plato principal:</strong> <span id="detallePlatoPrincipal"></span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p><strong>Fecha:</strong> <span id="detalleFecha"></span></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p><strong>Precio total del pedido:</strong> <span
+                                            class="badge bg-success fw-bold fs-6">€<span
+                                                id="detallePrecioTotal"></span></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="mb-0">Detalles adicionales</h6>
+                        <button type="button" class="btn btn-success btn-sm" data-bs-toggle="collapse"
+                            data-bs-target="#formNuevoDetalleCollapse">
+                            <i class="bi bi-plus-circle"></i> Nuevo Detalle
+                        </button>
+                    </div>
+
+                    <div class="collapse mb-3" id="formNuevoDetalleCollapse">
+                        <div class="card card-body bg-light">
+                            <form id="formNuevoDetalle" class="row g-3">
+                                <input type="hidden" id="pedidoId">
+                                <div class="col-md-4">
+                                    <label for="cantidad" class="form-label">Cantidad</label>
+                                    <input type="number" class="form-control" id="cantidad" min="1" value="1" required>
+                                </div>
+                                <div class="col-md-8">
+                                    <label for="observacion" class="form-label">Observación</label>
+                                    <input type="text" class="form-control" id="observacion"
+                                        placeholder="Ej: Sin picante, extra mayonesa...">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-success">
+                                        <i class="bi bi-check-circle"></i> Guardar Detalle
+                                    </button>
+                                    <button type="button" class="btn btn-secondary" data-bs-toggle="collapse"
+                                        data-bs-target="#formNuevoDetalleCollapse">
+                                        Cancelar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Tabla de detalles -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead class="table-secondary text-center">
+                                <tr>
+                                    <th width="5%">#</th>
+                                    <th width="10%">Cantidad</th>
+                                    <th width="25%">Plato</th>
+                                    <th width="40%">Observación</th>
+                                    <th width="20%">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detallesTableBody" class="text-center">
+                                <!-- Los detalles se cargarán dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="sinDetalles" class="alert alert-info d-none">
+                        <i class="bi bi-info-circle"></i> No hay detalles adicionales para este pedido.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id="btnEliminarPedido">
+                        <i class="bi bi-trash"></i> Eliminar Pedido
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Template para un pedido -->
+    <template id="pedidoTemplate">
+        <div class="col-md-6 col-lg-4">
+            <div class="card pedido-card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Pedido #<span class="pedido-id"></span></h5>
+                    <span class="badge bg-primary badge-mesa">Mesa <span class="mesa-numero"></span></span>
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><strong>Plato:</strong> <span class="pedido-plato"></span></p>
+                    <p class="card-text"><strong>Fecha:</strong> <span class="pedido-fecha"></span></p>
+                    <button class="btn btn-info btn-sm btn-ver-detalles" data-id="">
+                        <i class="bi bi-eye"></i> Ver detalles
+                    </button>
+                </div>
+            </div>
+        </div>
+    </template> <!-- Template para un detalle --> <template id="detalleTemplate">
+        <div class="detalle-item p-2 mb-2 bg-light rounded border border-light">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex">
+                    <span class="badge bg-secondary detalle-cantidad me-2 align-self-start"></span>
+                    <div>
+                        <span class="detalle-plato fw-bold text-primary"></span>
+                        <p class="mb-0 mt-1 text-muted small detalle-observacion"></p>
+                    </div>
+                </div>
+                <button class="btn btn-danger btn-sm btn-eliminar-detalle" data-id="" title="Eliminar detalle">
+                    <i class="bi bi-trash"></i>
+                </button>
+            </div>
+        </div>
+    </template>
+    
+    <!-- Modal para la Factura -->
+    <div class="modal fade" id="facturaModal" tabindex="-1" aria-labelledby="facturaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="facturaModalLabel"><i class="bi bi-receipt"></i> Factura del Pedido</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="facturaModalContent">
+                        <div class="text-center">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Cargando...</span>
+                            </div>
+                            <p class="mt-2">Cargando datos de la factura...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="btnImprimirFactura">
+                        <i class="bi bi-printer"></i> Imprimir Factura
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS for pedidos -->
+
+    <script src="/src/controllers/PedidoController.js"></script>
+
+    <script src="/src/controllers/MenuController.js"></script>
+
+    <script src="/views/pedido/pedidos.js"></script>
+</body>
+
+</html>

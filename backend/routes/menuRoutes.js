@@ -3,13 +3,11 @@ const router = express.Router();
 const menuController = require('../controllers/menuController');
 
 // Rutas para el menú
-router.get('/', menuController.getAllPlatos);
-router.get('/:id', menuController.getPlatoById);
-router.post('/', menuController.createPlato);
-router.put('/:id', menuController.updatePlato);
-router.delete('/:id', menuController.deletePlato);
-
-// Rutas para categorías
-router.get('/categorias/all', menuController.getAllCategorias);
+router.get('/platos', menuController.getAllPlatos);
+router.get('/platos/:id', menuController.getPlatoById);
+router.post('/platos', menuController.createPlato);
+router.put('/platos/:id', menuController.updatePlato);
+router.delete('/platos/:id', menuController.deletePlato);
+router.get('/categorias', menuController.getAllCategorias);
 
 module.exports = router;

@@ -1,0 +1,182 @@
+/* Estilos para la sección de pedidos */
+
+/* Card de pedido */
+.pedido-card {
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 3px solid #dee2e6;
+}
+
+.pedido-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-left-color: #0d6efd;
+}
+
+/* Efectos para destacar pedidos nuevos o actualizados */
+.pedido-card.highlight-new {
+    animation: highlightCard 2s ease;
+    border-left-color: #198754;
+    background-color: rgba(25, 135, 84, 0.05);
+}
+
+@keyframes highlightCard {
+    0% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(25, 135, 84, 0.4);
+    }
+    20% { 
+        transform: scale(1.03);
+        box-shadow: 0 0 20px rgba(25, 135, 84, 0.6);
+    }
+    100% { 
+        transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.pedido-card .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0.75rem 1rem;
+}
+
+.badge-mesa {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
+
+/* Detalles de pedido */
+.detalle-item {
+    border-left: 3px solid #6c757d;
+    transition: all 0.3s ease;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.detalle-item:hover {
+    border-left-color: #0d6efd;
+    background-color: #f0f7ff !important;
+    transform: translateX(3px);
+}
+
+.detalle-cantidad {
+    margin-right: 8px;
+    min-width: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.detalle-observacion {
+    font-style: italic;
+}
+
+/* Animación para nuevos elementos */
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.detalles-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Highlight section when adding new details */
+.highlight-section {
+    animation: highlightSection 1s ease;
+}
+
+@keyframes highlightSection {
+    0% { background-color: transparent; }
+    50% { background-color: rgba(13, 110, 253, 0.1); }
+    100% { background-color: transparent; }
+}
+
+/* Estilos para los modales */
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Estilos para los filtros */
+.filtros-card {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { 
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Animaciones para botones */
+.btn-ver-detalles:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(13, 110, 253, 0.2);
+}
+
+.btn-eliminar-detalle {
+    transition: all 0.2s ease;
+}
+
+.btn-eliminar-detalle:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Notificaciones Toast */
+.toast {
+    opacity: 1 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.toast:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estados de pedidos */
+.bg-pendiente {
+    background-color: #fff3cd;
+}
+
+.bg-preparacion {
+    background-color: #d1ecf1;
+}
+
+.bg-listo {
+    background-color: #d4edda;
+}
+
+.bg-entregado {
+    background-color: #e2e3e5;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: 0.5rem;
+        max-width: calc(100% - 1rem);
+    }
+}

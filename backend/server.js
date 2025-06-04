@@ -1,5 +1,6 @@
-// server.js - Servidor principal para Menu-Barlovento
 
+// server.js - Servidor principal para Menu-Barlovento
+const viewRoutes = require('./routes/viewRoutes');
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -16,8 +17,8 @@ if (process.env.NODE_ENV !== 'production') {
   const connectLivereload = require('connect-livereload');
   const liveReloadServer = livereload.createServer();
   liveReloadServer.watch([
-    path.join(__dirname, 'public'),
-    path.join(__dirname, 'app.js')
+    path.join(__dirname, '..', 'frontend'),
+    path.join(__dirname, 'server.js')
   ]);
   liveReloadServer.server.once('connection', () => {
     setTimeout(() => {
@@ -29,7 +30,11 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: '*',  // Permitir todas las solicitudes en desarrollo
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Accept']
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -47,8 +52,12 @@ app.use((req, res, next) => {
   next();
 });
 
-// Servir archivos estáticos
+// Servir archivos estáticos desde frontend/public
 app.use(express.static(path.join(__dirname, '..', 'frontend', 'public')));
+
+// Servir archivos estáticos desde frontend/views
+// Esto es crucial para acceder a los archivos .js en las carpetas de vistas
+app.use('/views', express.static(path.join(__dirname, '..', 'frontend', 'views')));
 
 // Rutas API
 app.use('/api', apiRoutes);
@@ -58,11 +67,24 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'frontend', 'public', 'index.html'));
 });
 
-// Servir archivos estáticos desde la carpeta backend
-app.use('/backend', express.static(path.join(__dirname, 'backend')));
+// Rutas para vistas
+app.use('/', viewRoutes);
+
 // Manejo de rutas no encontradas
 app.use((req, res, next) => {
-  res.status(404).json({ error: 'Ruta no encontrada' });
+  const isApiRequest = req.originalUrl.startsWith('/api');
+  if (isApiRequest) {
+    return res.status(404).json({ error: 'Ruta de API no encontrada' });
+  }
+  
+  // Si es una solicitud de archivo y no se encuentra, devolver 404 con mensaje JSON
+  if (req.originalUrl.match(/\.(js|css|png|jpg|jpeg|gif|svg)$/)) {
+    logger.error(`Archivo no encontrado: ${req.originalUrl}`);
+    return res.status(404).json({ error: `Archivo no encontrado: ${req.originalUrl}` });
+  }
+  
+  // Para otras rutas, redirigir a la página principal
+  res.redirect('/');
 });
 
 // Manejo de errores generales
@@ -74,4 +96,6 @@ app.use((err, req, res, next) => {
 // Iniciar servidor
 app.listen(PORT, () => {
   logger.info(`Servidor iniciado en http://localhost:${PORT}`);
+  logger.info(`Archivos estáticos servidos desde: ${path.join(__dirname, '..', 'frontend', 'public')}`);
+  logger.info(`Archivos de vistas servidos desde: ${path.join(__dirname, '..', 'frontend', 'views')}`);
 });

@@ -80,7 +80,49 @@ const pedidoController = {
       logOperation('SUCCESS', `/api/pedidos/${req.params.id}`);
       res.json({ message: 'Pedido eliminado correctamente' });
     });
-  }
+  },
+  // Obtener la factura de un pedido
+  getFacturaById: (req, res) => {
+    const pedidoId = req.params.id;
+    console.log('Solicitando factura para pedido ID:', pedidoId);
+    
+    if (!pedidoId) {
+      return res.status(400).json({ error: 'ID de pedido no proporcionado' });
+    }
+
+    try {
+      Pedido.getFacturaById(pedidoId, (err, factura) => {
+        if (err) {
+          console.error('Error al obtener factura:', err);
+          return res.status(500).json({ error: 'Error interno al obtener la factura' });
+        }
+        
+        if (!factura) {
+          return res.status(404).json({ error: 'No se encontró la factura para el pedido especificado' });
+        }
+        
+        // Asegurarnos de que los detalles sean un array
+        if (factura && factura.detalles) {
+          try {
+            if (typeof factura.detalles === 'string') {
+              factura.detalles = JSON.parse(factura.detalles);
+            }
+          } catch (e) {
+            console.error('Error al procesar detalles en controlador:', e);
+            factura.detalles = [];
+          }
+        } else if (factura) {
+          factura.detalles = [];
+        }
+        
+        console.log('Factura enviada:', factura);
+        res.status(200).json(factura);
+      });
+    } catch (error) {
+      console.error('Error inesperado:', error);
+      res.status(500).json({ error: 'Error interno del servidor' });
+    }
+  },
 };
 
 module.exports = pedidoController;

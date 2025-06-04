@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura del Pedido</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/views/pedido/style.css">
+    <style>
+        @media print {
+            .no-print {
+                display: none;
+            }
+
+            body {
+                padding: 20px;
+            }
+        }
+
+        .factura-header {
+            margin-bottom: 30px;
+        }
+
+        .factura-footer {
+            margin-top: 30px;
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">Factura del Pedido</h3>
+            </div>
+            <div class="card-body">
+                <div id="facturaContent">
+                    <div class="text-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Cargando...</span>
+                        </div>
+                        <p class="mt-2">Cargando datos de la factura...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-end no-print">
+                <button class="btn btn-secondary" onclick="window.print()">Imprimir Factura</button>
+                <a href="pedidos.html" class="btn btn-primary">Volver</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        $(document).ready(function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const pedidoId = urlParams.get('id');
+
+            if (!pedidoId) {
+                mostrarError('No se proporcionó un ID de pedido válido.');
+                return;
+            }
+
+            cargarFactura(pedidoId);
+
+            function cargarFactura(id) {
+                $.ajax({
+                    url: `/api/pedidos/${id}/factura`,
+                    method: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log('Datos recibidos:', data);
+                        if (data.error) {
+                            mostrarError('Error al obtener la factura: ' + data.error);
+                        } else {
+                            renderizarFactura(data);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error en la solicitud:', error);
+                        console.error('Status:', status);
+                        console.error('Respuesta:', xhr.responseText);
+                        mostrarError('Error al obtener la factura. Por favor, inténtelo nuevamente.');
+                    }
+                });
+            }
+
+            function renderizarFactura(data) {
+                const fecha = new Date(data.fecha);
+                const fechaFormateada = fecha.toLocaleDateString('es-ES', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                let html = `
+                    <div class="factura-header">
+                        <h2 class="text-center mb-4">Restaurante Barlovento</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>ID Pedido:</strong> ${data.pedido_id}</p>
+                                <p><strong>Fecha:</strong> ${fechaFormateada}</p>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <p><strong>Mesa:</strong> ${data.numeroMesa || 'N/A'}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="mb-3">Detalles del Pedido</h4>
+                `;
+
+                html += '<table class="table table-bordered table-striped">';
+                html += '<thead class="table-dark"><tr><th>Plato</th><th>Cantidad</th><th>Precio</th><th>Total</th></tr></thead><tbody>';
+
+                if (Array.isArray(data.detalles) && data.detalles.length > 0) {
+                    data.detalles.forEach(function (detalle) {
+                        html += `<tr>
+                            <td>${detalle.plato || 'Sin nombre'}</td>
+                            <td>${detalle.cantidad || 0}</td>
+                            <td>€${detalle.precio ? detalle.precio.toFixed(2) : '0.00'}</td>
+                            <td>€${detalle.total ? detalle.total.toFixed(2) : '0.00'}</td>
+                        </tr>`;
+                    });
+                } else {
+                    html += '<tr><td colspan="4" class="text-center">No hay detalles disponibles</td></tr>';
+                }
+
+                html += '</tbody></table>';
+                html += `<div class="factura-footer">
+                    <p class="fs-5">Precio Total: €${data.precio_total ? data.precio_total.toFixed(2) : '0.00'}</p>
+                </div>`;
+
+                $('#facturaContent').html(html);
+            }
+
+            function mostrarError(mensaje) {
+                $('#facturaContent').html(`
+                    <div class="alert alert-danger">
+                        <i class="bi bi-exclamation-triangle"></i> ${mensaje}
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="pedidos.html" class="btn btn-primary">Volver a Pedidos</a>
+                    </div>
+                `);
+            }
+        });
+    </script>
+</body>
+
+</html>

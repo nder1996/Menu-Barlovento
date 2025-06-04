@@ -25,7 +25,7 @@ const detallePedidoController = {
   getAllDetallesByPedidoId: (req, res) => {
     const { idPedido } = req.params;
     logOperation('READ', `/api/pedidos/${idPedido}/detalles`, { idPedido });
-    DetallePedido.getAll((err, rows) => {
+    DetallePedido.getByPedidoId(idPedido, (err, rows) => {
       if (err) {
         logOperation('ERROR', `/api/pedidos/${idPedido}/detalles`, { idPedido }, { error: err.message });
         res.status(500).json({ error: err.message });

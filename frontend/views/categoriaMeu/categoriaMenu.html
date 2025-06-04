@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Barlovento - Categorías</title>
+    <!-- CSS y recursos externos -->
+    <link href="/assets/libs/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/libs/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Categorías</h1>
+            <button class="btn btn-nuevo" data-bs-toggle="modal" data-bs-target="#categoriaModal">
+                <i class="bi bi-plus-lg me-1"></i> Nueva Categoría
+            </button>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th width="10%">#</th>
+                        <th width="30%">Nombre</th>
+                        <th width="40%">Descripción</th>
+                        <th width="20%">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="categoriaTableBody" class="text-center">
+                    <!-- Datos cargados dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+
+        <nav aria-label="Paginación">
+            <ul class="pagination justify-content-center">
+                <!-- Paginación dinámica -->
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Modal para Crear/Editar categoría -->
+    <div class="modal fade" id="categoriaModal" tabindex="-1" aria-labelledby="categoriaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="categoriaModalLabel">Nueva categoría</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="categoriaForm">
+                        <input type="hidden" id="categoriaId" value="">
+
+                        <div class="mb-3">
+                            <label for="categoriaNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="categoriaNombre" placeholder="Nombre de la categoría" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="categoriaDescripcion" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="categoriaDescripcion" placeholder="Descripción" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="saveCategoriaBtn">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmación para Eliminar -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Confirmar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Eliminar esta categoría?</p>
+                    <p class="fw-bold" id="deleteCategoriaName"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor de notificaciones -->
+    <div id="toastContainer" class="toast-container position-fixed bottom-0 end-0 p-3"></div>    <!-- JavaScript -->
+    <script src="/assets/libs/jquery-3.7.1.min.js"></script>
+    <script src="/assets/libs/bootstrap.bundle.min.js"></script>
+    <!-- Load Controllers -->
+    <script src="/public/src/controllers/CategoriaController.js"></script>
+    <script src="/views/categoriaMeu/categoriaMenu.js"></script>
+</body>
+
+</html>

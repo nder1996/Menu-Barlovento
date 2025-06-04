@@ -8,5 +8,7 @@ router.get('/:id', pedidoController.getPedidoById);
 router.post('/', pedidoController.createPedido);
 router.put('/:id', pedidoController.updatePedido);
 router.delete('/:id', pedidoController.deletePedido);
+// Nueva ruta para obtener la factura de un pedido
+router.get('/:id/factura', pedidoController.getFacturaById);
 
 module.exports = router;
