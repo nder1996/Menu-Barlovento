@@ -6,10 +6,18 @@ const cors = require('cors');
 const path = require('path');
 const logger = require('./utils/logger');
 const apiRoutes = require('./routes');
-
+const { createBackupService } = require('./backup-db/backup');
 // Inicialización de la app
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+const backupService = createBackupService({
+  dbPath: path.join(__dirname, 'db', 'menu.db'),
+  backupDir: path.join(__dirname, 'backups'),
+  intervalHours: 1,   // Intervalo de 1 hora para generar 24 copias diarias
+  maxBackups: 24      // Mantener hasta 24 copias del día actual
+});
+
 
 // LiveReload solo en desarrollo
 if (process.env.NODE_ENV !== 'production') {

@@ -23,6 +23,11 @@ router.get('/categorias', (req, res) => {
   res.sendFile('categoriaMeu/categoriaMenu.html', { root: path.join(__dirname, '../../frontend/views') });
 });
 
+// Ruta para la carta del restaurante - envía el archivo HTML directamente
+router.get('/carta', (req, res) => {
+  res.sendFile('hotelMenu/hotelMenu.html', { root: path.join(__dirname, '../../frontend/views') });
+});
+
 // Ruta para la página principal (redirecciona al menú)
 router.get('/', (req, res) => {
   res.redirect('/menu');

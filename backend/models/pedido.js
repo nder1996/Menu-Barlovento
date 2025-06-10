@@ -37,12 +37,14 @@ class Pedido {
       WHERE p.id = ?
     `;
     db.get(query, [id], callback);
-  }
-  static create({ idMenu, numeroMesa, createAt, updateAt }, callback) {
-    db.run('INSERT INTO PEDIDO (idMenu, numeroMesa, createAt, updateAt) VALUES (?, ?, ?, ?)', [idMenu, numeroMesa, createAt, updateAt], callback);
-  }
-  static update(id, { idMenu, numeroMesa, updateAt }, callback) {
-    db.run('UPDATE PEDIDO SET idMenu = ?, numeroMesa = ?, updateAt = ? WHERE id = ?', [idMenu, numeroMesa, updateAt, id], callback);
+  }  static create({ numeroMesa, createAt, updateAt }, callback) {
+    const currentTime = new Date().toISOString();
+    db.run('INSERT INTO PEDIDO (numeroMesa, createAt, updateAt, estado) VALUES (?, ?, ?, ?)', 
+      [numeroMesa, createAt || currentTime, updateAt || currentTime, 'activo'], 
+      callback);
+  }  static update(id, { numeroMesa, updateAt, estado }, callback) {
+    db.run('UPDATE PEDIDO SET numeroMesa = ?, updateAt = ?, estado = ? WHERE id = ?', 
+      [numeroMesa, updateAt, estado || 'activo', id], callback);
   }
   static delete(id, callback) {
     db.run('DELETE FROM PEDIDO WHERE id = ?', [id], callback);

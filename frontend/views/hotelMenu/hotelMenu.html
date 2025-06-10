@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Barlovento - Carta del Restaurante</title>
+    <!-- CSS y recursos externos -->
+    <link href="/assets/libs/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/libs/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para la carta */
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: 'Georgia', serif;
+        }
+
+        .menu-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/logo.png');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            border-bottom: 2px solid #dc3545;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #212529;
+        }
+
+        .dish-card {
+            transition: all 0.3s ease;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .dish-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .dish-name {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .dish-price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #dc3545;
+        }
+
+        .dish-description {
+            color: #6c757d;
+            margin-bottom: 1rem;
+            min-height: 50px;
+        }        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        /* Estilos para notificaciones */
+        #notificationsContainer {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1050;
+            width: 350px;
+        }
+
+        /* Animación para las cards */
+        @keyframes newItem {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .item-added {
+            animation: newItem 0.5s ease;
+        }
+
+        /* Estilos para el resumen del pedido */
+        #currentOrderContainer .card {
+            transition: all 0.3s ease;
+        }
+
+        #currentOrderContainer .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabecera del menú -->
+    <header class="menu-header">
+        <div class="container text-center">
+            <h1 class="display-4">Casa Barlovento</h1>
+            <p class="lead">Auténtica cocina del mar</p>
+        </div>
+    </header>    <!-- Contenido principal -->
+    <main class="container">
+        <!-- Sistema de notificaciones -->
+        <div id="notificationsContainer"></div>
+        
+        <!-- Resumen del pedido actual -->
+        <div id="currentOrderContainer" class="mb-4 d-none">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0"><i class="bi bi-cart-fill me-2"></i> Pedido actual - Mesa <span id="orderTableNumber">0</span></h5>
+                    <div>
+                        <button class="btn btn-sm btn-light" id="btnViewOrder" title="Ver pedido completo">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="btn btn-sm btn-success ms-2" id="btnConfirmOrder" title="Confirmar pedido">
+                            <i class="bi bi-check-lg"></i> Confirmar
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p id="orderItemsCount">0 items en el pedido</p>
+                            <p id="orderItemsSummary">Todavía no hay items en el pedido.</p>
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <p>Total: <span class="dish-price" id="orderGrandTotal">$0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Resumen de pedidos por mesa -->
+        <div class="alert alert-info mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <i class="bi bi-info-circle-fill me-2"></i>
+                    <span id="mesasPedidosCount">0 mesas con pedidos activos</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-primary" id="btnVerTodosPedidos">
+                    <i class="bi bi-eye-fill me-2"></i>Ver todos los pedidos
+                </button>
+            </div>
+        </div>
+        
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Nuestra Carta</h2>
+                    <div>
+                        <button id="btnMostrarTodos" class="btn btn-outline-dark me-2">
+                            <i class="bi bi-grid"></i> Todos
+                        </button>
+                        <div class="dropdown d-inline-block">
+                            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <i class="bi bi-funnel"></i> Filtrar por categoría
+                            </button>
+                            <ul class="dropdown-menu" id="categoriasDropdown">
+                                <!-- Las categorías se cargan dinámicamente aquí -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Aquí van las categorías y platos -->
+            <div id="menuContainer">
+                <!-- El contenido se carga dinámicamente -->
+                <div class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Cargando...</span>
+                    </div>
+                    <p class="mt-2">Cargando el menú...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container text-center">
+            <p>Casa Barlovento © 2025 - Todos los derechos reservados</p>
+            <p><small>Los precios pueden cambiar sin previo aviso.</small></p>
+        </div>
+    </footer>
+
+    <!-- Modal para detalles del plato -->
+    <div class="modal fade" id="dishModal" tabindex="-1" aria-labelledby="dishModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dishModalLabel">Detalles del Plato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>                <div class="modal-body">
+                    <h3 id="modalDishName" class="mb-3">Nombre del plato</h3>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="badge bg-secondary" id="modalDishCategory">Categoría</span>
+                        <span class="dish-price" id="modalDishPrice">$0</span>
+                    </div>
+                    <p id="modalDishDescription">Descripción del plato...</p>
+                    
+                    <!-- Formulario para detalles del pedido -->
+                    <form id="orderForm" class="mt-4 border-top pt-4">
+                        <input type="hidden" id="modalDishId" value="">
+                        
+                        <div class="mb-3">
+                            <label for="dishQuantity" class="form-label">Cantidad:</label>
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-secondary" id="decreaseQuantity">
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                                <input type="number" class="form-control text-center" id="dishQuantity" value="1" min="1" max="10">
+                                <button type="button" class="btn btn-outline-secondary" id="increaseQuantity">
+                                    <i class="bi bi-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="tableNumber" class="form-label">Número de mesa:</label>
+                            <select class="form-select" id="tableNumber" required>
+                                <option value="" selected disabled>Seleccione una mesa</option>
+                                <option value="1">Mesa 1</option>
+                                <option value="2">Mesa 2</option>
+                                <option value="3">Mesa 3</option>
+                                <option value="4">Mesa 4</option>
+                                <option value="5">Mesa 5</option>
+                                <option value="6">Mesa 6</option>
+                                <option value="7">Mesa 7</option>
+                                <option value="8">Mesa 8</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="dishObservations" class="form-label">Observaciones:</label>
+                            <textarea class="form-control" id="dishObservations" rows="2" placeholder="Por ejemplo: sin cebolla, término medio, etc."></textarea>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="fw-bold">Total: <span id="orderTotal" class="dish-price">$0</span></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="btnAddToOrder">
+                        <i class="bi bi-cart-plus"></i> Añadir al pedido
+                    </button>
+                </div>
+            </div>
+        </div>    </div>
+    
+    <!-- Modal para ver el pedido completo -->
+    <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="orderModalLabel">Detalle del Pedido - Mesa <span id="modalOrderTableNumber">0</span></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Plato</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio Unitario</th>
+                                    <th>Observaciones</th>
+                                    <th>Subtotal</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="orderDetailsList">
+                                <!-- Los items se cargan dinámicamente aquí -->
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan="5" class="text-end">Total:</th>
+                                    <th id="modalOrderTotal" class="dish-price">$0</th>
+                                    <th></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger" id="btnClearOrder">
+                        <i class="bi bi-trash"></i> Borrar pedido
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btnModalConfirmOrder">
+                        <i class="bi bi-check-circle"></i> Confirmar pedido
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de confirmación de pedido -->
+    <div class="modal fade" id="confirmOrderModal" tabindex="-1" aria-labelledby="confirmOrderModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="confirmOrderModalLabel">Confirmar Pedido</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-4">¿Está seguro que desea confirmar el pedido para la Mesa <span id="confirmOrderTableNumber">0</span>?</p>
+                    <div class="alert alert-info">
+                        <i class="bi bi-info-circle me-2"></i>
+                        <small>Al confirmar, el pedido se enviará a cocina y no podrá ser modificado.</small>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" id="btnFinalConfirmOrder">
+                        <i class="bi bi-check-circle"></i> Sí, confirmar pedido
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para ver todos los pedidos -->
+    <div class="modal fade" id="allOrdersModal" tabindex="-1" aria-labelledby="allOrdersModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="allOrdersModalLabel">
+                        <i class="bi bi-list-check me-2"></i>Todos los pedidos activos
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="allOrdersContainer">
+                        <!-- Aquí se cargarán dinámicamente todos los pedidos -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/libs/jquery-3.7.1.min.js"></script>
+    <script src="/assets/libs/bootstrap.bundle.min.js"></script>
+    <script src="/views/hotelMenu/hotelMenu.js"></script>
+</body>
+
+</html>

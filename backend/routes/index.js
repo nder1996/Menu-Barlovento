@@ -8,6 +8,11 @@ const categoriaController = require('../controllers/categoriaController');
 
 const router = express.Router();
 
+// Ruta simple para probar la API
+router.get('/test', (req, res) => {
+  res.json({ message: 'La API está funcionando correctamente', timestamp: new Date().toISOString() });
+});
+
 // Rutas principales para el frontend
 router.get('/platos', menuController.getAllPlatos);
 router.post('/platos', menuController.createPlato);

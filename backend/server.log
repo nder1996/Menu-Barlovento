@@ -7938,3 +7938,1746 @@
 {"timestamp":"2025-06-04T04:13:42.192Z","level":"INFO","message":"GET /api/pedidos/3/factura"}
 {"timestamp":"2025-06-04T04:13:57.233Z","level":"INFO","message":"GET /api/pedidos/2/factura"}
 {"timestamp":"2025-06-04T04:14:01.443Z","level":"INFO","message":"GET /api/pedidos/1/factura"}
+{"timestamp":"2025-06-04T04:20:14.274Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-04T04:20:14.281Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-04T04:20:14.286Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-04T04:20:15.074Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-04T04:20:15.450Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-04T04:20:15.471Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-04T04:20:15.494Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-04T04:20:15.505Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-04T04:20:15.745Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-04T04:20:16.166Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-04T04:20:16.564Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-04T04:20:16.835Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-04T04:20:17.653Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-04T04:20:17.662Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:20:17.673Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-04T04:20:17.687Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:20:17.692Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-04T04:20:17.707Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-04T04:20:53.144Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-04T04:20:53.152Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-04T04:20:53.153Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-04T04:20:54.252Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-04T04:20:54.506Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-04T04:20:54.518Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-04T04:20:54.529Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-04T04:20:54.541Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-04T04:20:54.616Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-04T04:20:55.949Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-04T04:21:01.250Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-04T04:21:01.256Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-04T04:21:01.265Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-04T04:21:02.708Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-04T04:21:02.723Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:21:02.739Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-04T04:21:02.755Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:21:02.762Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-04T04:21:02.801Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-04T04:21:14.974Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-04T04:21:14.978Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-04T04:21:14.978Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-04T04:21:16.215Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-04T04:21:16.439Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-04T04:21:16.448Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-04T04:21:16.461Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-04T04:21:16.486Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-04T04:21:16.571Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-04T04:21:17.105Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-04T04:21:18.448Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-04T04:21:18.456Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-04T04:21:18.465Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:21:18.479Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:21:18.485Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-04T04:21:18.496Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-04T04:21:23.782Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-04T04:21:23.785Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-04T04:21:23.786Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-04T04:21:27.398Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-04T04:21:27.823Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-04T04:21:27.839Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-04T04:21:27.873Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-04T04:21:27.879Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-04T04:21:27.970Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-04T04:21:28.171Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-04T04:21:29.739Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-04T04:21:29.753Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:21:29.771Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-04T04:21:29.837Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-04T04:21:29.843Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:21:29.847Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-04T04:22:07.130Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-04T04:22:07.136Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-04T04:22:07.138Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-04T04:22:07.640Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-04T04:22:07.998Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-04T04:22:08.031Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-04T04:22:08.056Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-04T04:22:08.061Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-04T04:22:08.118Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-04T04:22:08.648Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-04T04:22:10.275Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-04T04:22:10.281Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-04T04:22:10.287Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:22:10.300Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-04T04:22:10.306Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-04T04:22:10.317Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:21:19.952Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:21:19.953Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:21:19.953Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:25:03.299Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:25:03.302Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:25:03.303Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:29:27.625Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:29:27.627Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:29:27.628Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:34:17.994Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:34:17.999Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:34:18.001Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:34:47.648Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:34:47.650Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:34:47.652Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:35:04.949Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:35:04.957Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:35:04.958Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:36:07.671Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:36:07.672Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:36:07.674Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:36:10.408Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:36:10.410Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:36:10.411Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:36:16.255Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:36:16.256Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:36:16.257Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:36:27.240Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:36:27.242Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:36:27.243Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:38:05.451Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:38:05.615Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:38:05.694Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:38:25.167Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:38:25.292Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:38:25.346Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:39:06.058Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:39:06.177Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:39:06.251Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:39:39.802Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:39:39.902Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:39:39.977Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:40:11.382Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:40:11.415Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:40:11.419Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:40:40.868Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:40:40.870Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:40:40.871Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:40:49.675Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:40:49.676Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:40:49.678Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:41:29.057Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T01:41:29.541Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T01:41:30.157Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T01:41:34.019Z","level":"INFO","message":"GET /menu"}
+{"timestamp":"2025-06-06T01:41:34.133Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T01:41:34.139Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T01:41:34.142Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T01:41:34.157Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T01:41:34.163Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:41:34.167Z","level":"INFO","message":"GET /views/menu/menu.js"}
+{"timestamp":"2025-06-06T01:41:34.325Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.woff2"}
+{"timestamp":"2025-06-06T01:41:34.401Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:41:34.408Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T01:41:34.411Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:41:34.424Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:41:34.454Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:41:34.471Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:41:40.046Z","level":"INFO","message":"GET /categorias"}
+{"timestamp":"2025-06-06T01:41:40.181Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T01:41:40.267Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T01:41:40.290Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T01:41:40.295Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T01:41:40.299Z","level":"INFO","message":"GET /public/src/controllers/CategoriaController.js"}
+{"timestamp":"2025-06-06T01:41:40.305Z","level":"INFO","message":"GET /views/categoriaMeu/categoriaMenu.js"}
+{"timestamp":"2025-06-06T01:41:40.334Z","level":"ERROR","message":"Archivo no encontrado: /public/src/controllers/CategoriaController.js"}
+{"timestamp":"2025-06-06T01:41:40.525Z","level":"INFO","message":"GET /public/src/controllers/CategoriaController.js"}
+{"timestamp":"2025-06-06T01:41:40.528Z","level":"ERROR","message":"Archivo no encontrado: /public/src/controllers/CategoriaController.js"}
+{"timestamp":"2025-06-06T01:42:10.960Z","level":"INFO","message":"GET /categorias"}
+{"timestamp":"2025-06-06T01:42:11.054Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T01:42:11.115Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T01:42:11.235Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T01:42:11.330Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T01:42:11.393Z","level":"INFO","message":"GET /src/controllers/CategoriaController.js"}
+{"timestamp":"2025-06-06T01:42:11.456Z","level":"INFO","message":"GET /views/categoriaMeu/categoriaMenu.js"}
+{"timestamp":"2025-06-06T01:42:11.790Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T01:42:11.956Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T01:42:12.023Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:12.086Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:42:12.145Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T01:42:20.646Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:42:20.772Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:42:20.799Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:42:21.002Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:42:21.009Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:42:21.013Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:42:21.292Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:42:21.297Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:21.301Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:42:21.303Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:21.305Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:42:21.320Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:42:49.289Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:42:49.430Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:42:49.554Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:42:49.560Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:42:49.602Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:42:49.692Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:42:50.704Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:42:50.747Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:42:50.930Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:51.107Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:51.237Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:42:51.280Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:42:51.985Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:42:52.356Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:42:52.444Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:42:52.693Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:42:52.838Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:42:52.921Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:42:54.356Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:42:54.378Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:42:54.476Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:54.485Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:42:54.604Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:42:54.805Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:49:47.596Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:49:52.566Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:49:52.568Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:49:52.569Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:49:52.752Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:49:52.771Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:49:52.775Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:49:52.777Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:49:52.837Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:49:52.911Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T01:49:52.984Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T01:49:53.094Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:49:53.297Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:49:53.306Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:49:53.310Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:49:53.312Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:49:53.446Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:49:54.510Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:49:54.513Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:49:54.520Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:49:54.522Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:49:54.524Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:49:54.531Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:49:57.121Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:49:57.162Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:49:57.178Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:49:57.182Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:49:57.185Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:49:58.911Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:50:00.069Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:50:00.073Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:50:00.078Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:50:00.080Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:50:00.083Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:50:00.089Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:50:03.340Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:50:03.472Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:50:03.561Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:50:03.581Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:50:03.596Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:50:03.777Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:50:04.926Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:50:04.929Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:50:04.933Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:50:04.949Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:50:04.952Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:50:04.955Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:54:29.129Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:54:29.651Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:54:29.753Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:54:29.781Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:54:29.797Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:54:31.139Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:54:31.387Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T01:54:32.579Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T01:54:32.845Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:54:32.854Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:54:32.861Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:54:32.869Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:54:32.876Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:54:32.882Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:56:56.964Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:56:57.177Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:56:57.245Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:56:57.344Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:56:57.397Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:56:57.596Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:56:57.821Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T01:56:58.193Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:56:58.312Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:56:58.546Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:56:58.678Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:56:58.786Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:56:58.820Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:56:58.914Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T01:57:04.840Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:57:04.842Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:57:04.845Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:57:05.234Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:57:05.523Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:57:05.586Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:57:05.624Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:57:05.650Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:57:05.679Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:57:06.498Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:57:06.515Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:57:06.590Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:57:06.791Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:57:06.897Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:57:07.118Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:57:50.825Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:57:50.827Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:57:50.828Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:57:51.212Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:57:51.426Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:57:51.494Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:57:51.534Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:57:51.537Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:57:51.713Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:57:52.110Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:57:52.120Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:57:52.128Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:57:52.166Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:57:52.175Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:57:52.244Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:59:33.145Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:59:33.261Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:59:33.397Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:59:33.678Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:59:34.096Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:59:34.257Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:59:34.583Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:59:34.714Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:59:34.972Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:59:35.189Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:59:35.397Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:59:35.528Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:59:40.169Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:59:40.413Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:59:40.481Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:59:40.558Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:59:40.599Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:59:40.642Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:59:41.211Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:59:41.364Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:59:47.447Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T01:59:47.456Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T01:59:47.498Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T01:59:49.489Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T01:59:49.735Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T01:59:49.744Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T01:59:49.757Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T01:59:49.774Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T01:59:49.794Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:59:50.045Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T01:59:50.069Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T01:59:50.096Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:59:50.117Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T01:59:50.143Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T01:59:50.209Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T01:59:54.586Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T01:59:54.703Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T01:59:54.710Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T01:59:54.717Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T01:59:54.720Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T01:59:54.741Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T01:59:54.751Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T01:59:54.863Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T01:59:54.871Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.woff2"}
+{"timestamp":"2025-06-06T01:59:54.892Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T01:59:54.895Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:16.239Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css.map"}
+{"timestamp":"2025-06-06T02:00:47.423Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:00:47.948Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:00:47.960Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:00:48.032Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:00:48.044Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:00:48.073Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:48.088Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T02:00:48.129Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:48.214Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:48.723Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:00:48.783Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:48.812Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:49.281Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:00:49.285Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:00:49.294Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:00:49.711Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T02:00:55.725Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:00:56.120Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:00:56.197Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:00:56.241Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:00:56.377Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:00:56.454Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:56.512Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T02:00:56.582Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:56.754Z","level":"INFO","message":"GET /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:56.831Z","level":"ERROR","message":"Archivo no encontrado: /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:56.929Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:00:57.185Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:57.198Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:57.326Z","level":"INFO","message":"GET /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:57.344Z","level":"ERROR","message":"Archivo no encontrado: /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:59.116Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:00:59.530Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:00:59.539Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:00:59.551Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:00:59.558Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:00:59.576Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:59.591Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T02:00:59.593Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:59.637Z","level":"INFO","message":"GET /views/c/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:59.673Z","level":"ERROR","message":"Archivo no encontrado: /views/c/pedidos.js"}
+{"timestamp":"2025-06-06T02:00:59.915Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:00:59.979Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:00:59.982Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:00.021Z","level":"INFO","message":"GET /views/c/pedidos.js"}
+{"timestamp":"2025-06-06T02:01:00.031Z","level":"ERROR","message":"Archivo no encontrado: /views/c/pedidos.js"}
+{"timestamp":"2025-06-06T02:01:02.097Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:01:02.281Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:01:02.299Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:01:02.314Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:01:02.354Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:01:02.391Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:02.396Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T02:01:02.409Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:02.466Z","level":"INFO","message":"GET /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:01:02.517Z","level":"ERROR","message":"Archivo no encontrado: /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:01:03.087Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:01:03.313Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:03.590Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:03.942Z","level":"INFO","message":"GET /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:01:04.024Z","level":"ERROR","message":"Archivo no encontrado: /views/hotelMenu/pedidos.js"}
+{"timestamp":"2025-06-06T02:01:05.652Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:01:06.308Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:01:06.474Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:01:06.492Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:01:06.547Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:01:06.571Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:06.608Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T02:01:06.647Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:06.750Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:07.060Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:01:07.150Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:07.171Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:07.799Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:01:07.811Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:01:07.903Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:01:08.166Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:01:08.175Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:01:08.195Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:01:08.705Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:01:08.910Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:01:08.917Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:01:08.931Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:01:08.940Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:01:08.944Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:08.948Z","level":"INFO","message":"GET /src/controllers/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:08.965Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:08.968Z","level":"ERROR","message":"Archivo no encontrado: /src/controllers/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:08.979Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:09.278Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:01:09.353Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:09.358Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:09.396Z","level":"INFO","message":"GET /src/controllers/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:09.401Z","level":"ERROR","message":"Archivo no encontrado: /src/controllers/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:09.735Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:01:09.742Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:01:09.748Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:01:09.926Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:01:09.940Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:01:09.946Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:01:47.107Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:01:47.403Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:01:47.412Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:01:47.426Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:01:47.440Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:01:47.448Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:47.451Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:47.465Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:47.928Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:01:48.376Z","level":"INFO","message":"GET /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:48.494Z","level":"ERROR","message":"Archivo no encontrado: /hotelMenu.js"}
+{"timestamp":"2025-06-06T02:01:50.034Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:01:50.060Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:01:50.066Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:01:50.283Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:01:50.319Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:01:50.333Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:02:43.782Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:02:44.098Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:02:44.153Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:02:44.267Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:02:44.274Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:02:44.292Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:02:45.388Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:02:47.131Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:02:47.167Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:02:47.291Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:02:47.798Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:02:47.850Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:02:48.155Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:03:19.005Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:03:19.295Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:03:19.364Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:03:19.383Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:03:19.414Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:03:19.597Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:03:19.879Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:03:20.667Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:03:20.698Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:03:20.708Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:03:20.956Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:03:20.967Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:03:20.985Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:05:48.531Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:05:49.641Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:05:49.754Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:05:49.770Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:05:49.883Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:05:49.967Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:05:50.525Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:05:52.305Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:05:52.369Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:05:52.525Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:05:52.714Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:05:52.765Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:05:52.797Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:06:35.763Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:06:36.564Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:06:36.614Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:06:36.657Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:06:36.748Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:06:36.875Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:06:37.256Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:06:38.581Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:06:38.681Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:06:38.698Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:06:39.066Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:06:39.093Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:06:39.101Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:07:27.538Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:07:28.497Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:07:28.578Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:07:28.865Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:07:29.004Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:07:29.190Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:07:29.318Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:07:31.474Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:07:31.567Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:07:31.767Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:07:32.155Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:07:32.188Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:07:32.205Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:08:04.632Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:08:05.390Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:08:05.422Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:08:05.450Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:08:05.639Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:08:05.780Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:08:05.864Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:08:07.392Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:08:07.419Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:08:07.421Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:08:08.014Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:08:08.140Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:08:08.524Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:08:12.880Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:08:12.882Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:08:12.886Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:08:13.439Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:08:13.865Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:08:13.941Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:08:13.957Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:08:14.048Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:08:14.061Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:08:14.337Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:08:15.121Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:08:15.223Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:08:15.404Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:08:15.639Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:08:15.681Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:08:15.847Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:08:48.858Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:08:49.359Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:08:49.415Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:08:49.538Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:08:49.606Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:08:49.723Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:08:58.547Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:08:58.695Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:08:58.779Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:08:59.480Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:08:59.886Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:09:00.028Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:09:00.313Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:09:00.577Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:09:00.823Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:10:25.845Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:10:26.891Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:10:26.938Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:10:26.982Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:10:27.073Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:10:27.097Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:10:35.797Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:10:35.813Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:10:35.843Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:10:36.015Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:10:36.079Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:10:36.223Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:10:36.816Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:10:37.156Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:10:37.215Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:10:37.241Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:11:07.683Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:11:08.566Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:11:08.601Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:11:08.671Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:11:08.688Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:11:08.756Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:11:09.290Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:11:10.469Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T02:11:11.026Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:11:11.082Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:11:11.273Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:11:11.472Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:11:11.525Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:11:11.682Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:12:12.164Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:12:13.882Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:12:13.968Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:12:14.116Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:12:14.187Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:12:14.339Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:12:14.471Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:12:15.289Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:12:15.397Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:12:15.405Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:12:15.826Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:12:17.024Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:12:17.129Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:12:17.216Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:12:17.265Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:12:17.337Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:12:20.695Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:12:20.697Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:12:20.699Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:12:20.861Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:12:20.870Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:12:20.894Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:12:21.000Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:12:21.053Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:12:21.316Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:12:21.326Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:12:21.333Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:12:21.342Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:12:21.390Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:12:21.667Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:12:21.872Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:12:21.879Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:12:21.889Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:12:22.078Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:12:22.083Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:12:22.088Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:17:19.130Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:17:19.132Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:17:19.136Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:17:19.923Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:17:20.492Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:17:20.648Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:17:20.890Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:17:21.047Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:17:21.234Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:17:21.495Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:17:22.271Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T02:17:22.556Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:17:22.565Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:17:22.577Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:17:22.715Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T02:17:22.754Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:17:22.844Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:17:22.924Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:17:39.378Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:17:40.013Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:17:40.064Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:17:40.139Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:17:40.306Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:17:40.496Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:17:41.085Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:17:52.003Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:17:52.009Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:17:52.020Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:17:52.247Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T02:17:52.288Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:17:52.384Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:17:52.545Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:17:52.628Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:17:52.694Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:17:52.735Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:19:19.777Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:19:20.767Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:19:20.812Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:19:20.887Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:19:20.923Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:19:20.996Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:19:21.780Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:19:22.680Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T02:19:23.805Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:19:24.412Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T02:19:24.572Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:19:24.864Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:19:25.064Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:19:25.270Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:19:25.331Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:19:25.405Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:19:32.495Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:19:32.497Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:19:32.498Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:19:33.031Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:19:34.560Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:19:34.719Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:19:34.839Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:19:35.030Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:19:35.054Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:19:35.328Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:19:36.347Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:19:37.198Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:19:37.235Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:19:37.260Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:19:37.380Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:19:37.395Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:19:37.406Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {"timestamp":"2025-06-06T02:34:07.899Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:34:07.900Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:34:07.903Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:34:22.836Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:34:23.046Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:34:23.106Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:34:23.137Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:34:23.146Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:34:23.158Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:34:23.553Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:34:23.575Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.woff2"}
+{"timestamp":"2025-06-06T02:34:23.680Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T02:34:23.916Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T02:34:23.963Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:34:24.187Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:34:24.257Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:34:24.339Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:34:24.357Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:34:24.366Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:34:24.373Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:35:06.962Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:35:06.963Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:35:06.964Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:35:07.340Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:35:07.559Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:35:07.586Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:35:07.599Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:35:07.641Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:35:07.671Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:35:08.058Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:35:08.182Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T02:35:08.531Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:35:08.564Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T02:35:08.854Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:35:08.872Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:35:08.896Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:35:08.954Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:35:08.967Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:35:08.976Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:38:19.336Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:38:20.263Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:38:20.349Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:38:20.387Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:38:20.391Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:38:20.454Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:38:20.743Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:38:20.987Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T02:38:21.267Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:38:21.605Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:38:21.651Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:21.684Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:38:21.932Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T02:38:22.004Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:38:22.013Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:22.031Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:38:25.450Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:38:25.452Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:38:25.456Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:38:25.655Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T02:38:26.089Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:38:27.218Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:38:27.333Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:38:27.516Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:38:27.642Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:38:27.718Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:38:27.967Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:38:28.825Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:38:29.167Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:38:29.189Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:29.216Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:38:29.458Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:38:29.466Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:29.523Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:38:42.374Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:38:42.710Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:38:42.745Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:38:42.791Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:38:42.842Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:38:42.957Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:38:43.132Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:38:45.815Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:38:45.817Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:38:45.819Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:38:46.017Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:38:46.169Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:38:46.242Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:46.331Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:38:46.927Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:38:47.917Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:38:47.984Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:38:48.044Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:38:48.109Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:38:48.177Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:38:48.686Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:38:49.845Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:38:50.201Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:38:50.249Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:50.433Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:38:50.783Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:38:50.843Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:38:50.992Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:39:02.707Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:39:02.934Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:39:02.953Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:39:03.010Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:39:03.040Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:39:03.069Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:39:03.326Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:39:03.806Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:39:04.179Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:39:04.209Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:04.242Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:39:04.288Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:39:04.341Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:04.353Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:39:06.528Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:39:06.530Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:39:06.535Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:39:07.123Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:39:08.046Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:39:08.202Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:39:08.229Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:39:08.273Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:39:08.389Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:39:08.784Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:39:09.881Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:39:10.445Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:39:10.507Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:10.696Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:39:10.756Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:39:10.789Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:10.863Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:39:19.769Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:39:19.899Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:39:19.970Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:39:20.017Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:39:20.024Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:39:20.047Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:39:20.420Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:39:20.915Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:39:21.636Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:39:21.757Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:21.979Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:39:22.072Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:39:22.099Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:22.120Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:39:24.016Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:39:24.017Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:39:24.021Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:39:24.837Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:39:25.607Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:39:25.797Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:39:26.015Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:39:26.174Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:39:26.265Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:39:26.663Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:39:27.769Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:39:28.084Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:39:28.205Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:28.342Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:39:28.470Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:39:28.505Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:39:28.525Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:41:44.749Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:41:45.134Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:41:45.162Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:41:45.177Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:41:45.190Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:41:45.202Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:41:45.382Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:41:50.783Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:41:50.812Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:41:50.854Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:41:51.266Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:41:51.830Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:41:51.899Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:41:52.000Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:41:52.074Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:41:52.158Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:41:52.173Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:42:13.547Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:42:14.259Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:42:14.340Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:42:14.526Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:42:14.572Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:42:14.590Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:42:14.880Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:42:24.990Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:42:25.013Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:42:25.062Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:42:25.315Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T02:42:25.449Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:42:25.664Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:42:25.825Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:42:25.834Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:42:26.266Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:42:26.290Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:42:26.374Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:42:26.400Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:42:26.417Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:42:27.233Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:42:28.076Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:42:28.595Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:42:28.640Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:42:28.648Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:42:28.872Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:42:28.889Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:42:28.908Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:47:49.442Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:47:50.425Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:47:50.522Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:47:50.899Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:47:51.208Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:47:51.382Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:47:51.916Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:47:54.122Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:47:54.508Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:47:54.637Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:47:55.033Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:47:55.296Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:47:55.541Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:47:55.666Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:48:00.161Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:48:00.164Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:48:00.170Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:48:00.739Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:48:01.070Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:48:01.113Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:48:01.213Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:48:01.236Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:48:01.354Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:48:01.798Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:48:03.527Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:48:04.029Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:48:04.089Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:48:04.229Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:48:04.481Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:48:04.579Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:48:04.706Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:54:15.164Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:54:16.310Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:54:16.496Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:54:16.804Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:54:17.014Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:54:17.332Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:54:18.226Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:54:19.976Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:54:20.497Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:54:20.723Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:54:21.096Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:54:21.391Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:54:21.579Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:54:21.585Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:54:28.210Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:54:28.214Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:54:28.216Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:54:29.090Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:54:29.921Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:54:30.154Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:54:30.255Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:54:30.314Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:54:30.332Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:54:30.731Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:54:31.460Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:54:31.926Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:54:31.943Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:54:31.970Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:54:32.297Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:54:32.314Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:54:32.322Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T02:55:02.311Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:55:02.813Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:55:02.847Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:55:02.966Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:55:03.164Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:55:03.304Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:55:03.702Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:55:14.312Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T02:55:14.344Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T02:55:14.352Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T02:55:14.817Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:55:14.935Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T02:55:14.976Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:55:15.154Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T02:55:15.196Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:55:16.111Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T02:55:16.410Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T02:55:16.443Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T02:55:16.535Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T02:55:16.626Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T02:55:17.028Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T02:55:18.736Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T02:55:19.155Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T02:55:19.183Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:55:19.188Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T02:55:19.310Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T02:55:19.328Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T02:55:19.347Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:02:02.357Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:02:03.897Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:02:03.967Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:02:04.083Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:02:04.172Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:02:04.456Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:02:05.480Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:02:07.546Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:02:09.168Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:02:09.279Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:02:09.448Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:02:10.130Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:02:10.248Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:02:10.263Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:02:16.515Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:02:16.549Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:02:16.565Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:02:17.237Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:02:18.124Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:02:18.289Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:02:18.399Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:02:18.741Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:02:18.782Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:02:19.090Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:02:20.583Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:02:21.252Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:02:21.301Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:02:21.474Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:02:21.673Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:02:21.721Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:02:21.840Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:02:43.774Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:02:44.295Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:02:44.339Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:02:44.405Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:02:44.482Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:02:44.620Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:02:45.154Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:02:46.529Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:02:47.238Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:02:47.448Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:02:56.062Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:02:56.069Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:02:56.074Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:02:56.370Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:02:56.848Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:02:58.357Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:02:58.569Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:02:58.860Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:02:59.086Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:02:59.224Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:02:59.505Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:03:01.238Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:03:02.131Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:03:02.166Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:03:02.190Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:03:02.481Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:03:02.504Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:03:02.539Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:03:26.981Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:03:27.465Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:03:27.569Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:03:27.644Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:03:27.647Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:03:27.653Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:03:28.266Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:03:30.191Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:03:30.485Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:03:30.630Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:03:30.635Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:03:30.741Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:03:30.885Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:03:36.518Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:03:36.523Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:03:36.525Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:03:36.766Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:03:37.175Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:03:37.476Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:03:37.494Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:03:37.592Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:03:37.766Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:03:37.859Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:03:38.749Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:03:40.832Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:03:41.361Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:03:41.431Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:03:41.673Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:03:41.941Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:03:42.052Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:03:42.141Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:04:05.080Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:04:05.926Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:04:05.991Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:04:06.071Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:04:06.230Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:04:06.235Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:04:06.671Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:04:07.643Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:04:08.269Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:04:08.356Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:08.555Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:04:09.487Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:04:09.664Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:16.087Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:04:16.101Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:04:16.103Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:04:16.203Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:04:17.063Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:04:17.854Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:04:17.899Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:04:17.931Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:04:17.988Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:04:18.096Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:04:18.537Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:04:19.816Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:04:21.029Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:04:21.234Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:21.578Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:04:21.972Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:04:22.062Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:22.337Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:04:52.832Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:04:53.090Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:04:53.131Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:04:53.164Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:04:53.212Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:04:53.220Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:04:53.505Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:04:57.282Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:04:57.284Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:04:57.286Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:04:57.580Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:04:57.632Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:04:57.642Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:57.664Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:04:57.778Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:04:57.842Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:57.968Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:04:58.038Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:04:58.303Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:04:58.311Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:04:58.317Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:04:58.329Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:04:58.353Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:04:58.539Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:04:58.874Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:04:59.092Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:04:59.098Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:59.102Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:04:59.422Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:04:59.427Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:04:59.432Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:06:51.278Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:06:51.922Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:06:52.027Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:06:52.097Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:06:52.105Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:06:52.112Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:06:52.530Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:06:52.904Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T03:06:53.345Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:06:53.588Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T03:06:53.613Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:06:53.676Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:06:53.756Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:06:53.921Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:06:53.939Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:06:53.998Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:07:23.420Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:07:23.836Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:07:23.845Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:07:23.858Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:07:23.876Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:07:23.896Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:07:24.229Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:07:24.926Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:07:25.364Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:07:25.381Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:07:25.404Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:07:25.909Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:07:25.944Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:07:25.962Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:11:18.399Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:11:19.895Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:11:20.061Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:11:20.428Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:11:20.695Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:11:20.822Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:11:21.237Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:11:24.161Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:11:24.939Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:11:25.067Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:11:25.071Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:11:25.604Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:11:25.685Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:11:25.689Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:11:32.043Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:11:32.049Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:11:32.051Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:11:32.474Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:11:32.834Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:11:33.718Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:11:33.791Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:11:33.848Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:11:33.851Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:11:33.856Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:11:34.439Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:11:35.884Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:11:36.911Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:11:37.002Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:11:37.268Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:11:37.479Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:11:37.567Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:11:37.651Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:22:08.418Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:22:09.334Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:22:09.385Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:22:09.449Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:22:09.500Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:22:09.541Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:22:10.168Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:22:10.407Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T03:22:11.106Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:22:11.544Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:22:11.609Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:22:11.850Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T03:22:12.119Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:22:17.355Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:22:17.363Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:22:17.370Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:22:17.771Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:22:18.442Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:22:19.146Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:22:19.179Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:22:19.198Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:22:19.215Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:22:19.261Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:22:19.783Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:22:21.213Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:22:21.948Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:22:22.094Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:22:22.337Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:22:22.587Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T03:22:23.065Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:22:23.104Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:22:23.183Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:23:04.439Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:23:04.762Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:23:04.845Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:23:04.963Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:23:05.087Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:23:05.205Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:23:05.655Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:23:20.119Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:23:20.127Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:23:20.142Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:23:20.522Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:23:20.875Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:23:21.078Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:23:21.180Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:23:21.461Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:23:22.593Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:23:22.608Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:23:22.624Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:23:22.650Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:23:22.707Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:23:23.172Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:23:25.331Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:23:25.517Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:23:25.710Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:23:25.878Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:23:25.968Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:23:26.026Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:23:26.192Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:24:04.849Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:24:05.321Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:24:05.372Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:24:05.408Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:24:05.460Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:24:05.611Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:24:05.934Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:24:15.816Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:24:15.841Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:24:15.854Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:24:16.103Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:24:16.382Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:24:16.440Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:24:16.520Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:24:16.689Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:24:17.306Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:24:17.414Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:24:17.466Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:24:17.481Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:24:17.499Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:24:17.956Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:24:18.693Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:24:19.211Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:24:19.225Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:24:19.237Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:24:19.304Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:24:19.412Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:24:19.440Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:24:54.201Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:24:55.024Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:24:55.170Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:24:55.364Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:24:55.589Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:24:55.703Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:24:56.045Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:24:57.838Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:24:58.137Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:24:58.173Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:24:58.290Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:24:58.368Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:24:58.396Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:24:58.399Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:25:37.198Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:25:37.848Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:25:37.897Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:25:37.981Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:25:38.096Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:25:38.215Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:25:38.546Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:25:40.380Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:25:40.891Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:25:40.926Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:25:46.004Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:25:46.008Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:25:46.009Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:25:46.130Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:25:46.760Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:25:47.178Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:25:47.253Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:25:47.263Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:25:47.279Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:25:47.294Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:25:47.693Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:25:49.073Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:25:49.900Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:25:49.954Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:25:50.334Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:25:50.570Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:25:50.659Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:25:50.935Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:26:12.038Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:26:13.088Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:26:13.186Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:26:13.344Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:26:13.368Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:26:13.389Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:26:13.718Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:26:15.369Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:26:16.162Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:26:16.310Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:26:16.496Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:26:16.648Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:26:16.663Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:26:16.746Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:27:03.382Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:27:04.525Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:27:04.575Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:27:04.694Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:27:04.801Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:27:04.946Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:27:05.217Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:27:05.792Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:27:06.201Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:27:06.225Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:27:06.344Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:27:06.549Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:27:07.062Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:27:07.094Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:27:07.104Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:27:07.117Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:27:07.126Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:27:10.674Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:27:10.676Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:27:10.677Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:27:10.762Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:27:10.887Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:27:10.894Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:27:10.960Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:27:11.028Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:27:11.180Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:27:11.382Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:27:11.392Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:27:11.402Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:27:11.442Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:27:11.448Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:27:11.645Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:27:11.987Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:27:12.246Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:27:12.250Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:27:12.253Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:27:12.455Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:27:12.462Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:27:12.469Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:30:58.925Z","level":"INFO","message":"POST /api/pedidos"}
+{"timestamp":"2025-06-06T03:30:58.928Z","operation":"VALIDATION_ERROR","route":"/api/pedidos","data":{"numeroMesa":2,"createAt":"2025-06-06T03:30:58.870Z","updateAt":"2025-06-06T03:30:58.870Z","platos":[{"idMenu":3,"cantidad":2,"observacion":"fgdfgsdf"}]},"result":{"error":"idMenu y numeroMesa son requeridos"}}
+{"timestamp":"2025-06-06T03:30:59.162Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:31:22.299Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:31:22.301Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:31:22.302Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:31:23.125Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:31:23.500Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:31:23.575Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:31:23.633Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:31:23.660Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:31:23.716Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:31:24.088Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:31:24.361Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T03:31:25.401Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:31:25.715Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-06-06T03:31:25.906Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:31:26.080Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:31:26.102Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:31:26.185Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:31:26.302Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:31:26.326Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:31:51.467Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:31:51.889Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:31:52.076Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:31:52.224Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:31:52.277Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:31:52.709Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:31:52.998Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:31:55.898Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:31:56.523Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:31:56.642Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:31:56.947Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:32:02.968Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:32:02.972Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:32:02.974Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:32:03.425Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:32:03.602Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:32:04.108Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:32:04.151Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:32:04.165Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:32:04.176Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:32:04.192Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:32:04.482Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:32:06.093Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:32:06.364Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:32:06.406Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:32:06.668Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:32:06.900Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:32:06.920Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:32:06.941Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:32:50.391Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:32:50.393Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:32:50.394Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:32:50.654Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:32:50.836Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:32:50.842Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:32:50.852Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:32:50.863Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:32:50.870Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:32:51.004Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:32:51.575Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:32:51.786Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:32:51.799Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:32:51.868Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:32:52.169Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:32:52.187Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:32:52.196Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:34:33.903Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:34:33.904Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:34:33.906Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:34:34.344Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:34:34.589Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:34:34.596Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:34:34.613Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:34:34.620Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:34:34.639Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:34:34.802Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:34:35.121Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:34:35.700Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:34:35.716Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:34:35.737Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:34:35.985Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:34:36.007Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:34:36.172Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:38:55.537Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:38:55.542Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:38:55.543Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:38:57.062Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:38:57.786Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:38:57.801Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:38:57.808Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:38:57.845Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:38:57.866Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:38:58.184Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:38:59.100Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:39:00.252Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:39:00.325Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:39:00.434Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:39:00.653Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:39:00.718Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:39:00.800Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:39:12.227Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:39:12.232Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:39:12.233Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:39:12.802Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:39:13.153Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:39:13.184Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:39:13.195Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:39:13.205Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:39:13.235Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:39:13.738Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:39:15.210Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:39:15.961Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:39:16.081Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:39:16.253Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:39:17.019Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:39:17.078Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:39:17.183Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:39:36.903Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:39:37.862Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:39:37.906Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:39:38.011Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:39:38.020Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:39:38.041Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:39:46.319Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:39:46.359Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:39:46.367Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:39:46.483Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:39:46.685Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:39:46.736Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:39:46.771Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:39:46.843Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:39:46.902Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:39:46.922Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:40:25.934Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:40:25.940Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:40:25.941Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:40:28.213Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:40:28.695Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:40:28.708Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:40:28.721Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:40:28.762Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:40:28.781Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:40:29.113Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:40:30.166Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:40:31.618Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:40:31.712Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:40:31.977Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:40:32.581Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:40:32.694Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:40:32.859Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:41:23.606Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:41:23.610Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:41:23.612Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:41:24.229Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:41:24.774Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:41:24.889Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:41:25.163Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:41:25.239Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:41:25.298Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:41:25.658Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:41:27.980Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:41:35.019Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:41:35.025Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:41:35.027Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:41:35.434Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:41:35.452Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:41:35.491Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:41:35.565Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:41:35.570Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:41:35.631Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:41:36.776Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:41:37.055Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:41:37.063Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:41:37.074Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:41:37.093Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:41:37.112Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:41:37.271Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:41:37.563Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:41:37.820Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:41:37.830Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:41:37.839Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:41:38.003Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:41:38.011Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:41:38.015Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:42:01.459Z","level":"INFO","message":"POST /api/pedidos"}
+{"timestamp":"2025-06-06T03:42:01.469Z","operation":"ERROR","route":"/api/pedidos","data":{"numeroMesa":1,"createAt":"2025-06-06T03:42:01.407Z","updateAt":"2025-06-06T03:42:01.407Z","platos":[{"idMenu":2,"cantidad":10,"observacion":"termino medio"}]},"result":{"error":"SQLITE_ERROR: table PEDIDO has no column named idMenu"}}
+{"timestamp":"2025-06-06T03:42:01.728Z","level":"INFO","message":"GET /installHook.js.map"}
+{"timestamp":"2025-06-06T03:43:55.933Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:43:55.935Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:43:55.939Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:43:56.483Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:43:57.444Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:43:57.542Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:43:57.559Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:43:57.717Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:43:57.918Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:43:58.026Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:43:59.121Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:43:59.440Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:43:59.465Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:43:59.548Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:43:59.776Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:43:59.949Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:44:00.276Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:44:15.513Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:44:15.515Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:44:15.516Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:44:16.041Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:44:16.465Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:44:16.596Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:44:16.763Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:44:16.766Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:44:17.072Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:44:17.469Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:44:19.188Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:44:19.292Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:44:19.372Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:44:19.497Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:44:19.587Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:44:19.629Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:44:19.637Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:44:52.076Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:44:52.078Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:44:52.082Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:44:52.833Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:44:53.417Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:44:53.433Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:44:53.452Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:44:53.509Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:44:53.519Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:44:53.864Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:44:54.916Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:44:55.532Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:44:55.549Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:44:55.567Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:44:55.649Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:44:55.662Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:44:55.681Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:45:13.607Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:45:13.608Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:45:13.610Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:45:14.324Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:45:14.824Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:45:14.927Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:45:15.026Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:45:15.060Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:45:15.082Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:45:15.342Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:45:16.325Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:45:16.746Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:45:16.865Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:45:17.069Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:45:17.375Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:45:17.405Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:45:17.457Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:46:31.865Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:46:31.868Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:46:31.874Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:46:32.756Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:46:33.383Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:46:33.400Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:46:33.433Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:46:33.440Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:46:33.454Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:46:33.725Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:46:34.656Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:47:42.170Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-06T03:47:42.172Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-06T03:47:42.173Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\Andersons\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-06T03:47:51.915Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:47:52.370Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:47:52.409Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:47:52.442Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:47:52.450Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:47:52.454Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:47:52.824Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:47:53.144Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:47:53.302Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:47:53.324Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:47:53.410Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:47:53.545Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:47:53.552Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:47:53.558Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:48:07.643Z","level":"INFO","message":"POST /api/pedidos"}
+{"timestamp":"2025-06-06T03:48:07.669Z","operation":"SUCCESS","route":"/api/pedidos","data":{"pedidoId":4,"platos":[{"idMenu":2,"cantidad":4,"observacion":"rtertwestrwertwert"}]},"result":null}
+{"timestamp":"2025-06-06T03:48:28.112Z","level":"INFO","message":"POST /api/pedidos"}
+{"timestamp":"2025-06-06T03:48:28.126Z","operation":"SUCCESS","route":"/api/pedidos","data":{"pedidoId":5,"platos":[{"idMenu":3,"cantidad":5,"observacion":"prueba de mesa de pedidos"}]},"result":null}
+{"timestamp":"2025-06-06T03:48:31.906Z","level":"INFO","message":"GET /carta"}
+{"timestamp":"2025-06-06T03:48:32.218Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
+{"timestamp":"2025-06-06T03:48:32.232Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.css"}
+{"timestamp":"2025-06-06T03:48:32.235Z","level":"INFO","message":"GET /assets/libs/jquery-3.7.1.min.js"}
+{"timestamp":"2025-06-06T03:48:32.256Z","level":"INFO","message":"GET /assets/libs/bootstrap.bundle.min.js"}
+{"timestamp":"2025-06-06T03:48:32.268Z","level":"INFO","message":"GET /views/hotelMenu/hotelMenu.js"}
+{"timestamp":"2025-06-06T03:48:32.513Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:48:32.524Z","level":"INFO","message":"GET /assets/libs/bootstrap-icons.woff2"}
+{"timestamp":"2025-06-06T03:48:32.599Z","level":"INFO","message":"GET /favicon.ico"}
+{"timestamp":"2025-06-06T03:48:33.017Z","level":"INFO","message":"GET /api/test"}
+{"timestamp":"2025-06-06T03:48:33.314Z","level":"INFO","message":"GET /api/categorias"}
+{"timestamp":"2025-06-06T03:48:33.339Z","operation":"READ","route":"/api/categorias","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:48:33.351Z","operation":"SUCCESS","route":"/api/categorias","data":null,"result":{"count":3}}
+{"timestamp":"2025-06-06T03:48:33.377Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:48:33.399Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:48:33.459Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:48:35.517Z","level":"INFO","message":"GET /pedidos"}
+{"timestamp":"2025-06-06T03:48:35.685Z","level":"INFO","message":"GET /views/pedido/style.css"}
+{"timestamp":"2025-06-06T03:48:35.702Z","level":"INFO","message":"GET /src/controllers/PedidoController.js"}
+{"timestamp":"2025-06-06T03:48:35.706Z","level":"INFO","message":"GET /src/controllers/MenuController.js"}
+{"timestamp":"2025-06-06T03:48:35.711Z","level":"INFO","message":"GET /views/pedido/pedidos.js"}
+{"timestamp":"2025-06-06T03:48:35.810Z","level":"INFO","message":"GET /assets/img/logo.png"}
+{"timestamp":"2025-06-06T03:48:36.073Z","level":"INFO","message":"GET /api/pedidos"}
+{"timestamp":"2025-06-06T03:48:36.079Z","level":"INFO","message":"GET /api/platos"}
+{"timestamp":"2025-06-06T03:48:36.083Z","operation":"READ","route":"/api/pedidos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:48:36.086Z","operation":"READ","route":"/api/platos","data":{"query":{}},"result":null}
+{"timestamp":"2025-06-06T03:48:36.094Z","operation":"SUCCESS","route":"/api/pedidos","data":null,"result":{"count":5}}
+{"timestamp":"2025-06-06T03:48:36.100Z","operation":"SUCCESS","route":"/api/platos","data":null,"result":{"count":48}}
+{"timestamp":"2025-06-06T03:48:46.112Z","level":"INFO","message":"GET /api/detalles-pedido/pedido/5"}
+{"timestamp":"2025-06-06T03:48:46.116Z","operation":"READ","route":"/api/pedidos/5/detalles","data":{"idPedido":"5"},"result":null}
+{"timestamp":"2025-06-06T03:48:46.119Z","operation":"SUCCESS","route":"/api/pedidos/5/detalles","data":{"idPedido":"5"},"result":{"count":1}}
+{"timestamp":"2025-06-06T03:49:35.413Z","level":"INFO","message":"POST /api/pedidos"}
+{"timestamp":"2025-06-06T03:49:35.414Z","operation":"VALIDATION_ERROR","route":"/api/pedidos","data":{"numeroMesa":1,"idMenu":2,"createAt":"2025-06-06T03:49:35.408Z","updateAt":"2025-06-06T03:49:35.408Z"},"result":{"error":"Se requiere al menos un plato en el pedido"}}
+{"timestamp":"2025-06-06T03:49:46.069Z","level":"INFO","message":"GET /api/detalles-pedido/pedido/5"}
+{"timestamp":"2025-06-06T03:49:46.074Z","operation":"READ","route":"/api/pedidos/5/detalles","data":{"idPedido":"5"},"result":null}
+{"timestamp":"2025-06-06T03:49:46.077Z","operation":"SUCCESS","route":"/api/pedidos/5/detalles","data":{"idPedido":"5"},"result":{"count":1}}
