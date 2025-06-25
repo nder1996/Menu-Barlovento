@@ -144,6 +144,28 @@ API_ENDPOINT=http://localhost:3000`;
   console.log('✅ Archivo .env ya existe');
 }
 
+// Copiar vistas al directorio público para Netlify
+const viewsSrc = path.join(__dirname, 'frontend', 'views');
+const viewsDest = path.join(__dirname, 'frontend', 'public');
+if (fs.existsSync(viewsSrc)) {
+  fs.cpSync(viewsSrc, viewsDest, { recursive: true });
+  console.log('✅ Vistas copiadas a frontend/public');
+}
+
+// Verificar si .env.local existe
+const envLocalPath = path.join(__dirname, '.env.local');
+if (!fs.existsSync(envLocalPath)) {
+  console.log('❌ No se encontró el archivo .env.local. Creando archivo de variables de entorno local básico...');
+  
+  const envLocalContent = `# Variables de entorno para Netlify Dev
+API_ENDPOINT=http://localhost:3000`;
+  
+  fs.writeFileSync(envLocalPath, envLocalContent);
+  console.log('✅ Archivo .env.local creado');
+} else {
+  console.log('✅ Archivo .env.local ya existe');
+}
+
 // Verificar si netlify-cli está instalado
 try {
   console.log('🔍 Verificando si netlify-cli está instalado...');
