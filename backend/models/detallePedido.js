@@ -1,61 +1,91 @@
-// Modelo para la tabla DETALLE_PEDIDO
-const db = require('./db');
+// Modelo para la tabla detallePedido
+const { getDatabase } = require('./db-netlify');
 
 class DetallePedido {
   // Obtener todos los detalles de pedidos
-  static getAll(callback) {
-    db.all('SELECT * FROM DETALLE_PEDIDO', [], callback);
+  static async getAll(callback) {
+    try {
+      const db = await getDatabase();
+      db.all('SELECT * FROM detallePedido', [], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
   
   // Obtener un detalle específico por ID
-  static getById(id, callback) {
-    const query = `
-      SELECT dp.*,
-             m.nombre as nombrePlato,
-             m.precio as precioPlato,
-             m.descripcion as descripcionPlato
-      FROM DETALLE_PEDIDO dp
-      LEFT JOIN MENU m ON dp.idMenu = m.id
-      WHERE dp.id = ?
-    `;
-    db.get(query, [id], callback);
+  static async getById(id, callback) {
+    try {
+      const db = await getDatabase();
+      const query = `
+        SELECT dp.*,
+               m.nombre as nombrePlato,
+               m.precio as precioPlato,
+               m.descripcion as descripcionPlato
+        FROM detallePedido dp
+        LEFT JOIN menu m ON dp.menuId = m.id
+        WHERE dp.id = ?
+      `;
+      db.get(query, [id], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
   
   // Obtener todos los detalles de un pedido específico
-  static getByPedidoId(idPedido, callback) {
-    const query = `
-      SELECT dp.*,
-             m.nombre as nombrePlato,
-             m.precio as precioPlato,
-             m.descripcion as descripcionPlato
-      FROM DETALLE_PEDIDO dp
-      LEFT JOIN MENU m ON dp.idMenu = m.id
-      WHERE dp.idPedido = ?
-    `;
-    db.all(query, [idPedido], callback);
+  static async getByPedidoId(pedidoId, callback) {
+    try {
+      const db = await getDatabase();
+      const query = `
+        SELECT dp.*,
+               m.nombre as nombrePlato,
+               m.precio as precioPlato,
+               m.descripcion as descripcionPlato
+        FROM detallePedido dp        LEFT JOIN menu m ON dp.menuId = m.id
+        WHERE dp.pedidoId = ?
+      `;
+      db.all(query, [pedidoId], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
   
   // Crear un nuevo detalle de pedido
-  static create({ idPedido, observacion, cantidad, idMenu }, callback) {
-    db.run(
-      'INSERT INTO DETALLE_PEDIDO (idPedido, observacion, cantidad, idMenu) VALUES (?, ?, ?, ?)',
-      [idPedido, observacion, cantidad, idMenu],
-      callback
-    );
+  static async create({ pedidoId, cantidad, menuId, precio }, callback) {
+    try {
+      const db = await getDatabase();
+      db.run(
+        'INSERT INTO detallePedido (pedidoId, cantidad, menuId, precio) VALUES (?, ?, ?, ?)',
+        [pedidoId, cantidad, menuId, precio],
+        callback
+      );
+    } catch (error) {
+      callback(error);
+    }
   }
   
   // Actualizar un detalle de pedido existente
-  static update(id, { idPedido, observacion, cantidad, idMenu }, callback) {
-    db.run(
-      'UPDATE DETALLE_PEDIDO SET idPedido = ?, observacion = ?, cantidad = ?, idMenu = ? WHERE id = ?',
-      [idPedido, observacion, cantidad, idMenu, id],
-      callback
-    );
+  static async update(id, { pedidoId, cantidad, menuId, precio }, callback) {
+    try {
+      const db = await getDatabase();
+      db.run(
+        'UPDATE detallePedido SET pedidoId = ?, cantidad = ?, menuId = ?, precio = ? WHERE id = ?',
+        [pedidoId, cantidad, menuId, precio, id],
+        callback
+      );
+    } catch (error) {
+      callback(error);
+    }
   }
   
   // Eliminar un detalle de pedido
-  static delete(id, callback) {
-    db.run('DELETE FROM DETALLE_PEDIDO WHERE id = ?', [id], callback);
+  static async delete(id, callback) {
+    try {
+      const db = await getDatabase();
+      db.run('DELETE FROM detallePedido WHERE id = ?', [id], callback);
+    } catch (error) {
+      callback(error);
+    }
+  }
   }
 }
 

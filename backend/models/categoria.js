@@ -1,21 +1,50 @@
 // Modelo para la tabla CATEGORIA
-const db = require('./db');
+const { getDatabase } = require('./db-netlify');
 
 class Categoria {
-  static getAll(callback) {
-    db.all('SELECT * FROM CATEGORIA', [], callback);
+  static async getAll(callback) {
+    try {
+      const db = await getDatabase();
+      db.all('SELECT * FROM categoria', [], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
-  static getById(id, callback) {
-    db.get('SELECT * FROM CATEGORIA WHERE id = ?', [id], callback);
+  
+  static async getById(id, callback) {
+    try {
+      const db = await getDatabase();
+      db.get('SELECT * FROM categoria WHERE id = ?', [id], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
-  static create({ nombre, descripcion }, callback) {
-    db.run('INSERT INTO CATEGORIA (nombre, descripcion) VALUES (?, ?)', [nombre, descripcion], callback);
+  
+  static async create({ nombre, imagen }, callback) {
+    try {
+      const db = await getDatabase();
+      db.run('INSERT INTO categoria (nombre, imagen) VALUES (?, ?)', [nombre, imagen], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
-  static update(id, { nombre, descripcion }, callback) {
-    db.run('UPDATE CATEGORIA SET nombre = ?, descripcion = ? WHERE id = ?', [nombre, descripcion, id], callback);
+  
+  static async update(id, { nombre, imagen }, callback) {
+    try {
+      const db = await getDatabase();
+      db.run('UPDATE categoria SET nombre = ?, imagen = ? WHERE id = ?', [nombre, imagen, id], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
-  static delete(id, callback) {
-    db.run('DELETE FROM CATEGORIA WHERE id = ?', [id], callback);
+  
+  static async delete(id, callback) {
+    try {
+      const db = await getDatabase();
+      db.run('DELETE FROM categoria WHERE id = ?', [id], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
 }
 

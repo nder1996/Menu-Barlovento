@@ -1,109 +1,125 @@
 // Modelo para la tabla PEDIDO
-const db = require('./db');
+const { getDatabase } = require('./db-netlify');
 
 class Pedido {
-  static getAll(callback) {
-  const query = `
-    SELECT 
-      p.*,
-      m.precio AS precio_plato_principal,
-      (
-        SELECT COALESCE(SUM(m2.precio * dp.cantidad), 0)
-        FROM DETALLE_PEDIDO dp
-        JOIN MENU m2 ON dp.idMenu = m2.id
-        WHERE dp.idPedido = p.id
-      ) AS precio_total
-    FROM PEDIDO p
-    LEFT JOIN DETALLE_PEDIDO dp ON p.id = dp.idPedido
-    LEFT JOIN MENU m ON dp.idMenu = m.id
-    GROUP BY p.id
-  `;
-  db.all(query, [], callback);
-}
-
-  static getById(id, callback) {
-    const query = `
-      SELECT 
-        p.*, 
-        m.precio AS precio_plato_principal,
-        (
-          SELECT COALESCE(SUM(m2.precio * dp.cantidad), 0)
-          FROM DETALLE_PEDIDO dp
-          JOIN MENU m2 ON dp.idMenu = m2.id
-          WHERE dp.idPedido = p.id
-        ) AS precio_total
-      FROM PEDIDO p
-      LEFT JOIN MENU m ON p.idMenu = m.id
-      WHERE p.id = ?
-    `;
-    db.get(query, [id], callback);
-  }  static create({ numeroMesa, createAt, updateAt }, callback) {
-    const currentTime = new Date().toISOString();
-    db.run('INSERT INTO PEDIDO (numeroMesa, createAt, updateAt, estado) VALUES (?, ?, ?, ?)', 
-      [numeroMesa, createAt || currentTime, updateAt || currentTime, 'activo'], 
-      callback);
-  }  static update(id, { numeroMesa, updateAt, estado }, callback) {
-    db.run('UPDATE PEDIDO SET numeroMesa = ?, updateAt = ?, estado = ? WHERE id = ?', 
-      [numeroMesa, updateAt, estado || 'activo', id], callback);
+  static async getAll(callback) {
+    try {
+      const db = await getDatabase();
+      const query = `
+        SELECT 
+          p.*,
+          COALESCE(SUM(dp.precio * dp.cantidad), 0) AS total_calculado
+        FROM pedido p
+        LEFT JOIN detallePedido dp ON p.id = dp.pedidoId
+        GROUP BY p.id
+        ORDER BY p.fecha DESC
+      `;
+      db.all(query, [], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
-  static delete(id, callback) {
-    db.run('DELETE FROM PEDIDO WHERE id = ?', [id], callback);
+  static async getById(id, callback) {
+    try {
+      const db = await getDatabase();
+      const query = `
+        SELECT 
+          p.*,
+          COALESCE(SUM(dp.precio * dp.cantidad), 0) AS total_calculado
+        FROM pedido p
+        LEFT JOIN detallePedido dp ON p.id = dp.pedidoId
+        WHERE p.id = ?
+        GROUP BY p.id
+      `;
+      db.get(query, [id], callback);
+    } catch (error) {
+      callback(error);
+    }
+  }
+  
+  static async create({ mesa, total }, callback) {
+    try {
+      const db = await getDatabase();
+      const currentTime = new Date().toISOString();
+      db.run('INSERT INTO pedido (mesa, total, fecha, estado) VALUES (?, ?, ?, ?)', 
+        [mesa, total || 0, currentTime, 'pendiente'], 
+        callback);
+    } catch (error) {
+      callback(error);
+    }
+  }
+  
+  static async update(id, { mesa, total, estado }, callback) {
+    try {
+      const db = await getDatabase();
+      db.run('UPDATE pedido SET mesa = ?, total = ?, estado = ? WHERE id = ?', 
+        [mesa, total, estado || 'pendiente', id], callback);
+    } catch (error) {
+      callback(error);
+    }
+  }
+  
+  static async delete(id, callback) {
+    try {
+      const db = await getDatabase();
+      db.run('DELETE FROM pedido WHERE id = ?', [id], callback);
+    } catch (error) {
+      callback(error);
+    }
   }
 
   // Método para obtener la factura de un pedido
-  static getFacturaById(pedidoId, callback) {
-    console.log('Obteniendo factura para pedido ID:', pedidoId);
-    const query = `
-      SELECT
-        p.id AS pedido_id,
-        p.createAt AS fecha,
-        p.numeroMesa,
-        (
-          SELECT json_group_array(
-            json_object(
-              'plato', m.nombre,
-              'cantidad', dp.cantidad,
-              'precio', m.precio,
-              'total', m.precio * dp.cantidad
-            )
-          )
-          FROM DETALLE_PEDIDO dp
-          JOIN MENU m ON dp.idMenu = m.id
-          WHERE dp.idPedido = p.id
-        ) AS detalles,
-        (
-          SELECT COALESCE(SUM(m.precio * dp.cantidad), 0)
-          FROM DETALLE_PEDIDO dp
-          JOIN MENU m ON dp.idMenu = m.id
-          WHERE dp.idPedido = p.id
-        ) AS precio_total
-      FROM PEDIDO p
-      WHERE p.id = ?
-    `;
-    
-    db.get(query, [pedidoId], (err, row) => {
-      if (err) {
-        console.error('Error en la consulta de factura:', err);
-        return callback(err);
-      }
-      console.log('Resultado de la factura:', row);
+  static async getFacturaById(pedidoId, callback) {
+    try {
+      const db = await getDatabase();
+      console.log('Obteniendo factura para pedido ID:', pedidoId);
+      const query = `
+        SELECT
+          p.id AS pedido_id,
+          p.fecha,
+          p.mesa,
+          p.total AS precio_total,
+          p.estado
+        FROM pedido p
+        WHERE p.id = ?
+      `;
       
-      // Asegurar que los detalles sean un array
-      if (row && row.detalles) {
-        try {
-          if (typeof row.detalles === 'string') {
-            row.detalles = JSON.parse(row.detalles);
-          }
-        } catch (e) {
-          console.error('Error al procesar detalles:', e);
-          row.detalles = [];
+      db.get(query, [pedidoId], (err, pedido) => {
+        if (err) {
+          console.error('Error en la consulta de factura:', err);
+          return callback(err);
         }
-      } else if (row) {
-        row.detalles = [];
-      }
-      
-      callback(null, row);
-    });
+        
+        if (!pedido) {
+          return callback(null, null);
+        }
+        
+        // Obtener detalles del pedido
+        const detallesQuery = `
+          SELECT
+            m.nombre AS plato,
+            dp.cantidad,
+            dp.precio,
+            (dp.cantidad * dp.precio) AS total
+          FROM detallePedido dp
+          JOIN menu m ON dp.menuId = m.id
+          WHERE dp.pedidoId = ?
+        `;
+        
+        db.all(detallesQuery, [pedidoId], (err, detalles) => {
+          if (err) {
+            console.error('Error obteniendo detalles:', err);
+            return callback(err);
+          }
+          
+          pedido.detalles = detalles || [];
+          console.log('Resultado de la factura:', pedido);
+          callback(null, pedido);
+        });
+      });
+    } catch (error) {
+      callback(error);
+    }
   }
 }
 

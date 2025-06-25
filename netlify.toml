@@ -1,8 +1,8 @@
 [build]
   # Directorio desde el cual servir los archivos estáticos
   publish = "frontend/public"
-  # Comando para construir el proyecto (en este caso, no es necesario)
-  command = "echo No build command needed"
+  # Comando para construir el proyecto e inicializar la base de datos
+  command = "node prepare-netlify.js"
 
 [dev]
   # Comando para el servidor de desarrollo local
