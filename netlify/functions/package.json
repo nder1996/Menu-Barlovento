@@ -1,0 +1,10 @@
+{
+  "name": "menu-barlovento-netlify-functions",
+  "version": "1.0.0",
+  "description": "Funciones Netlify para Menu Barlovento",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "sqlite3": "^5.1.6",
+    "serverless-http": "^2.8.0"
+  }
+}

@@ -9681,3 +9681,153 @@
 {"timestamp":"2025-06-06T03:49:46.069Z","level":"INFO","message":"GET /api/detalles-pedido/pedido/5"}
 {"timestamp":"2025-06-06T03:49:46.074Z","operation":"READ","route":"/api/pedidos/5/detalles","data":{"idPedido":"5"},"result":null}
 {"timestamp":"2025-06-06T03:49:46.077Z","operation":"SUCCESS","route":"/api/pedidos/5/detalles","data":{"idPedido":"5"},"result":{"count":1}}
+{"timestamp":"2025-06-10T01:04:29.649Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:04:29.650Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:04:29.650Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:07:12.638Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:07:12.638Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:07:12.638Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:08:13.800Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:08:13.800Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:08:13.800Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:08:26.472Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:08:26.472Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:08:26.473Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:08:38.835Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:08:38.835Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:08:38.835Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:08:40.013Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:08:40.013Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:08:40.013Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:08:54.843Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:08:54.843Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:08:54.843Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:09:41.440Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:09:41.440Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:09:41.440Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:09:42.601Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:09:42.601Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:09:42.602Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:13:48.849Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:13:48.850Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:13:48.850Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:13:49.287Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:13:49.288Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:13:49.288Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:14:11.561Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:14:11.561Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:14:11.561Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:15:17.753Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:15:17.754Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:15:17.754Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:25:53.005Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:25:53.005Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:25:53.005Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:25:57.185Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:25:57.185Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:25:57.185Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:26:15.841Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:26:15.841Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:26:15.841Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:33:16.064Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:33:16.065Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:33:16.065Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:33:38.335Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:33:38.336Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:33:38.336Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:33:52.736Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:33:52.736Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:33:52.736Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:34:09.418Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:34:09.419Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:34:09.419Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:34:40.663Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:34:40.663Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:34:40.663Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:35:01.039Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:35:01.039Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:35:01.039Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:35:19.098Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:35:19.099Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:35:19.099Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:35:34.221Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:35:34.221Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:35:34.221Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:35:49.416Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:35:49.416Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:35:49.416Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:36:52.250Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:36:52.250Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:36:52.250Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:36:54.263Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:36:54.263Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:36:54.263Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:36:56.004Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:36:56.005Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:36:56.005Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:36:58.304Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:36:58.305Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:36:58.305Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:36:58.925Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:36:58.926Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:36:58.926Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:37:03.611Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:37:03.611Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:37:03.611Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:37:05.673Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:37:05.673Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:37:05.673Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:37:23.529Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:37:23.529Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:37:23.529Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:37:58.487Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:37:58.487Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:37:58.487Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:39:01.135Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:39:01.135Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:39:01.135Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:39:42.280Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:39:42.281Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:39:42.281Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:40:02.209Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:40:02.209Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:40:02.209Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:40:28.008Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:40:28.008Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:40:28.008Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:42:52.735Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:42:52.735Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:42:52.736Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:42:53.603Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:42:53.604Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:42:53.604Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:42:55.372Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:42:55.373Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:42:55.373Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:43:09.198Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:43:09.198Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:43:09.198Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:44:56.433Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:44:56.433Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:44:56.433Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T01:45:09.007Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T01:45:09.007Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T01:45:09.007Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T02:38:57.635Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T02:38:57.635Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T02:38:57.635Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T02:40:33.390Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T02:40:33.390Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T02:40:33.390Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T02:42:43.978Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T02:42:43.978Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T02:42:43.979Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T02:42:59.783Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T02:42:59.783Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T02:42:59.783Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-10T02:44:43.981Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-10T02:44:43.981Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-10T02:44:43.981Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-06-25T01:56:43.887Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-06-25T01:56:43.887Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
+{"timestamp":"2025-06-25T01:56:43.887Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}

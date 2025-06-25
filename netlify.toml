@@ -1,0 +1,27 @@
+[build]
+  # Directorio desde el cual servir los archivos estáticos
+  publish = "frontend/public"
+  # Comando para construir el proyecto (en este caso, no es necesario)
+  command = "echo No build command needed"
+
+[dev]
+  # Comando para el servidor de desarrollo local
+  command = "npm start"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[functions]
+  # Directorio donde se encuentran las funciones serverless
+  directory = "netlify/functions"
+  # Incluir node_modules para las funciones
+  node_bundler = "esbuild"
+
+[functions."db-init"]
+  # Configuración específica para la función de inicialización de base de datos
+  included_files = ["backend/db/menu.db"]
+
+[functions."api"]
+  included_files = ["backend/**"]

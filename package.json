@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js",
+    "prepare-netlify": "node prepare-netlify.js",
+    "prepare-db": "node prepare-db.js",
+    "netlify-build": "npm run prepare-netlify && npm run prepare-db",
+    "netlify-dev": "npm run prepare-db && netlify dev",
+    "deploy": "npm run netlify-build && netlify deploy --prod"
   },
   "repository": {
     "type": "git",
@@ -25,11 +30,13 @@
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "menu-barlovento": "file:",
+    "node-fetch": "^2.7.0",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "connect-livereload": "^0.6.1",
     "livereload": "^0.9.3",
+    "netlify-cli": "^22.1.3",
     "nodemon": "^3.1.10"
   }
 }

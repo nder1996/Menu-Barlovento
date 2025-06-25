@@ -1,4 +1,3 @@
-
 // server.js - Servidor principal para Menu-Barlovento
 const viewRoutes = require('./routes/viewRoutes');
 const express = require('express');
@@ -101,9 +100,20 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Error interno del servidor' });
 });
 
-// Iniciar servidor
-app.listen(PORT, () => {
-  logger.info(`Servidor iniciado en http://localhost:${PORT}`);
-  logger.info(`Archivos estáticos servidos desde: ${path.join(__dirname, '..', 'frontend', 'public')}`);
-  logger.info(`Archivos de vistas servidos desde: ${path.join(__dirname, '..', 'frontend', 'views')}`);
-});
+// Iniciar servidor o exportar para Netlify
+const serverless = require('serverless-http');
+
+if (process.env.NETLIFY) {
+  // Exponer handler para Netlify Functions
+  module.exports.handler = serverless(app);
+} else {
+  // En desarrollo/local, iniciar servidor HTTP
+  app.listen(PORT, () => {
+    logger.info(`Servidor iniciado en http://localhost:${PORT}`);
+    logger.info(`Archivos estáticos servidos desde: ${path.join(__dirname, '..', 'frontend', 'public')}`);
+    logger.info(`Archivos de vistas servidos desde: ${path.join(__dirname, '..', 'frontend', 'views')}`);
+  });
+}
+
+// Exportar app para otros usos (p. ej. pruebas)
+module.exports = app;
