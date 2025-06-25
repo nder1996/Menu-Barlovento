@@ -1,2 +1,11 @@
-/*    /index.html   200
+# API redirects
 /api/*  /.netlify/functions/api/:splat  200
+
+# Frontend view redirects
+/menu  /views/menu/menu.html  200
+/categorias  /views/categoriaMeu/categoriaMenu.html  200
+/pedidos  /views/pedido/pedidos.html  200
+/carta  /views/hotelMenu/hotelMenu.html  200
+
+# Catch-all redirect (must be last)
+/*  /index.html  200

@@ -8,34 +8,37 @@
   # Comando para el servidor de desarrollo local
   command = "npm start"
 
+# Redirecciones para la API
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200
 
+# Redirecciones para las vistas del frontend
 [[redirects]]
   from = "/menu"
-  to = "/menu/menu.html"
-  status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/pedidos"
-  to = "/.netlify/functions/api/pedidos"
+  to = "/views/menu/menu.html"
   status = 200
 
 [[redirects]]
   from = "/categorias"
-  to = "/.netlify/functions/api/categorias"
+  to = "/views/categoriaMeu/categoriaMenu.html"
+  status = 200
+
+[[redirects]]
+  from = "/pedidos"
+  to = "/views/pedido/pedidos.html"
   status = 200
 
 [[redirects]]
   from = "/carta"
-  to = "/.netlify/functions/api/carta"
+  to = "/views/hotelMenu/hotelMenu.html"
+  status = 200
+
+# Catch-all redirect - debe ir al final
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
   status = 200
 
 [functions]
