@@ -101,11 +101,9 @@ app.use((err, req, res, next) => {
 });
 
 // Iniciar servidor o exportar para Netlify
-const serverless = require('serverless-http');
-
 if (process.env.NETLIFY) {
-  // Exponer handler para Netlify Functions
-  module.exports.handler = serverless(app);
+  // En Netlify, no iniciar servidor aquí, solo preparar la app
+  logger.info('Ejecutándose en Netlify Functions');
 } else {
   // En desarrollo/local, iniciar servidor HTTP
   app.listen(PORT, () => {
@@ -115,5 +113,5 @@ if (process.env.NETLIFY) {
   });
 }
 
-// Exportar app para otros usos (p. ej. pruebas)
+// Exportar app para Netlify Functions y otros usos
 module.exports = app;
