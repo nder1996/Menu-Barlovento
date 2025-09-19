@@ -9831,3 +9831,14 @@
 {"timestamp":"2025-06-25T01:56:43.887Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
 {"timestamp":"2025-06-25T01:56:43.887Z","level":"INFO","message":"Archivos estáticos servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\public"}
 {"timestamp":"2025-06-25T01:56:43.887Z","level":"INFO","message":"Archivos de vistas servidos desde: C:\\Users\\USUARIO\\Documents\\Github\\Menu-Barlovento\\frontend\\views"}
+{"timestamp":"2025-09-19T22:17:50.637Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-09-19T22:17:50.637Z","level":"INFO","message":"Archivos estáticos servidos desde: /home/runner/work/Menu-Barlovento/Menu-Barlovento/frontend/public"}
+{"timestamp":"2025-09-19T22:17:50.637Z","level":"INFO","message":"Archivos de vistas servidos desde: /home/runner/work/Menu-Barlovento/Menu-Barlovento/frontend/views"}
+{"timestamp":"2025-09-19T22:18:05.299Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-09-19T22:18:05.300Z","level":"INFO","message":"Archivos estáticos servidos desde: /home/runner/work/Menu-Barlovento/Menu-Barlovento/frontend/public"}
+{"timestamp":"2025-09-19T22:18:05.300Z","level":"INFO","message":"Archivos de vistas servidos desde: /home/runner/work/Menu-Barlovento/Menu-Barlovento/frontend/views"}
+{"timestamp":"2025-09-19T22:18:51.618Z","level":"INFO","message":"Servidor iniciado en http://localhost:3000"}
+{"timestamp":"2025-09-19T22:18:51.618Z","level":"INFO","message":"Archivos estáticos servidos desde: /home/runner/work/Menu-Barlovento/Menu-Barlovento/frontend/public"}
+{"timestamp":"2025-09-19T22:18:51.618Z","level":"INFO","message":"Archivos de vistas servidos desde: /home/runner/work/Menu-Barlovento/Menu-Barlovento/frontend/views"}
+{"timestamp":"2025-09-19T22:19:14.948Z","level":"INFO","message":"GET /"}
+{"timestamp":"2025-09-19T22:19:15.036Z","level":"INFO","message":"GET /assets/libs/bootstrap.min.css"}
