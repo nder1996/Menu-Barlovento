@@ -86,7 +86,6 @@ class DetallePedido {
       callback(error);
     }
   }
-  }
 }
 
 module.exports = DetallePedido;
